@@ -4869,7 +4869,7 @@ npc.model.punkguy=Панк мальчик
 npc.model.rancher=Фермер
 npc.model.ranger_f=Женщина фермер
 npc.model.ranger_m=Мужчина фермер
-npc.model.richboy=Багатей
+npc.model.richboy=Богатей
 npc.model.sailor=Моряк
 npc.model.schoolboy=Школьник
 npc.model.schoolgirl=Школьница
@@ -6348,4 +6348,4 @@ pixelmon.config.elevatorSearchRange.comment=Максимальный диапа�
 
 pixelmon.config.starterLevel.comment=Уровень (min=5, max=100).
 pixelmon.config.starterShiny.comment=Шайни Стартовые Покемоны.
-pixelmon.config.starterList.comment=Список Стартовых Покемонов (максимум 18).
+pixelmon.config.starterList.comment=Список Стартовых Покемонов (максимум 21).
