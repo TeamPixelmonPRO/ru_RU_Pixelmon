@@ -893,7 +893,16 @@ item.houndoominite.name=Хаундуминит
 item.lopunnite.name=Лопуннит
 item.gardevoirite.name=Гардевуарит
 item.rayquazanite.name=Рэйквазанит
-
+item.gengarite.name=Генгарит
+item.blazikenite.name=Блэйзикинит
+item.ampharosite.name=Амфаросит
+item.alakazite.name=Алаказит
+item.aggronite.name=Аггронит
+item.aerodactylite.name=Аэродактелит
+item.galladite.name=Галлэйдит
+item.garchompite.name=Гарчомпит
+item.mewtwonite_x.name=Мьютунит X
+item.mewtwonite_y.name=Мьютунит Y
 
 item.stick.name=Палка
 
