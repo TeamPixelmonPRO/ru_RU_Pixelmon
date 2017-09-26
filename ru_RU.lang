@@ -215,12 +215,12 @@ item.calcium.name=Кальций
 item.zinc.name=Цинк
 item.carbos.name=Карбос
 //Такой перевод, потому что каждое название ягоды это изменённое название реального фрукта/овоща/... и правильный перевод примерно такой
-item.pomeg_berry.name=Ягода Грана
-item.kelpsy_berry.name=Ягода Ламинари
-item.qualot_berry.name=Ягода Квало
-item.hondew_berry.name=Ягода Никтаро
-item.grepa_berry.name=Ягода Вингрод
-item.tamato_berry.name=Ягода Тамато
+item.pomeg_berry.name=Снимает ХП
+item.kelpsy_berry.name=Снимает Атаку
+item.qualot_berry.name=Снимает Защиту
+item.hondew_berry.name=Снимает сп.Атаку
+item.grepa_berry.name=Снимает сп.Защиту
+item.tamato_berry.name=Снимает Скорость
 item.oran_berry.name=Ягода Апельс
 item.rawst_berry.name=Ягода Никлуба
 item.leppa_berry.name=Ягода Локояб
@@ -6502,7 +6502,7 @@ pixelmon.config.sound.comment=Настройки звука.
 pixelmon.config.pixelutilities.comment=Настройки для функций ПиксельУтилит.
 pixelmon.config.elevator.comment=Настройки лифта.
 
-pixelmon.config.awardPhotos.comment=Наградить игроков фотографиями, которые побеждают дикого покемона.
+pixelmon.config.awardPhotos.comment=Наградить игроков фотографиями с побеждёнными дикими покемонами.
 pixelmon.config.wildCanFlee.comment=У Диких Покемонов будет шанс, основанный на неблагоприятных условиях сражения, чтобы попытаться бежать из боя.
 pixelmon.config.spinBattleCamera.comment=Боевая камера вращается вокруг игрока, если true, и неподвижна, если false.
 pixelmon.config.spawnStructures.comment=Разрешить случайную генерацию структур, таких как центры Покемонов, Святыни и другие здания, если это true.
@@ -6649,7 +6649,7 @@ pixelmon.config.pokeGiftHaveEvents.comment=Позволяет использов
 pixelmon.config.eventPokeGiftLoad.comment=Должно появиться событие для спавна ПокеПодарков?
 pixelmon.config.eventHasLegendaries.comment=Включить / Отключить Легенд для добавления в ПокеПодараки.
 
-pixelmon.config.eventHasShinies.comment=У каждого покемона 1/10 шансов быть Шайни.
+pixelmon.config.eventHasShinies.comment=У каждого покемона 1/100 шансов быть Шайни.
 pixelmon.config.eventMaxPokemon.comment=Устанавливает максимальное количество покемонов, которые находятся в заспавненых ПокеПодарках.
 pixelmon.config.eventShinyRate.comment=Скорость Шайни Покемона, появляющаяся в ПокеПодарке (1 / x).
 pixelmon.config.eventTime.comment=Определите пользовательскую дату для событий ПокеПодарка (день, затем месяц).
