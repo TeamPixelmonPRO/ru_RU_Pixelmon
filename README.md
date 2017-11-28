@@ -1,4 +1,4 @@
-# ru_RU language - full localization Pixelmon Generations
+# ru_RU language - Full localization for mod Pixelmon Generations
 Русская локализация Pixelmon мода последних версий Pixelmon Generations.
 Данный перевод выполнен администраторами и игроками с проекта Pixelmon.PRO.
 Чтобы внести свою правки в перевод, сделайте Fork локализации и после редактирования, создайте Pull Request. После рассмотрения (и возможной корректировки), ваши изменения будут добавлены в перевод.
