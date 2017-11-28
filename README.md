@@ -5,6 +5,7 @@
 
 # About authors
 ![Лого](https://image.prntscr.com/image/E9ma22zUSmyv9Wq_jjMBpA.png)
+
 Чем мы отличаемся от других проектов?
 
 - Полная локализация всех модов и команд
