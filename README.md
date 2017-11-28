@@ -16,6 +16,6 @@
 Оставайся с нами - покажи на сколько ты "Pro" во вселенной покемонов!
 
 # Links
-Wiki Pixelmon: https://pixelmon.pro/wiki/
-VK сообщество: https://vk.com/pixelmonpro
-Discord сообщество: https://discord.gg/9HFYe3y
+- Wiki Pixelmon: https://pixelmon.pro/wiki/
+- VK сообщество: https://vk.com/pixelmonpro
+- Discord сообщество: https://discord.gg/9HFYe3y
