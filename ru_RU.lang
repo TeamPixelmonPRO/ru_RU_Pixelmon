@@ -4505,6 +4505,7 @@ pixelmon.abilities.dryskinsun=%s испытывает боль из-за сух�
 pixelmon.abilities.effectsporesleep=%s эффект спор усыпляет %s!
 pixelmon.abilities.effectsporeparal=%s эффект спор парализует %s!
 pixelmon.abilities.effectsporepois=%s эффект спор отравляет %s!
+pixelmon.abilities.fairyaura=%s увеличивает силу волшебных атак!
 pixelmon.abilities.flamebody=%s поджигает %s своим горячим телом !
 pixelmon.abilities.flashfire=Пылающий огонь покрывает %s огнем!
 pixelmon.abilities.flashfire2=%s пылающий огонь предотвратил нападение!
@@ -5930,7 +5931,7 @@ pixelmon.battletext.sentout=%s вызвал %s!
 pixelmon.battletext.megareact=%s %s реагирует на %s камень Мега Эволюции!
 pixelmon.battletext.megaevolve=%s эволюционировал в Мега %s!
 
-pixelmon.effect.fairyaura=&s увеличил силу волшебных атак!
+pixelmon.effect.fairyaura=%s увеличил силу волшебных атак!
 pixelmon.effect.regainedenergy=%s восстановил энергию!
 pixelmon.effect.atedreams=%s отправил %s в сон!
 pixelmon.effect.notasleep=%s не спит!
