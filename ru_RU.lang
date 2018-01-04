@@ -424,6 +424,32 @@ item.safety_goggles.name=Защитные Очки
 item.snowball.name=Снежный Шар
 item.weakness_policy.name=Расчёт слабости
 
+item.activated_dna_splicer.name=Активированный ДНК-пресс
+item.dna_splicer.name=ДНК-пресс
+item.ghetsis_staff.name=Персонал Ghetsis
+item.burn_drive.name=Кассета Огня
+item.douse_drive.name=Кассета Воды
+item.chill_drive.name=Кассета Льда
+item.shock_drive.name=Кассета Тока
+item.meadow_plate.name=Луговая пластина
+item.flame_plate.name=Пламенная пластина
+item.splash_plate.name=Всплескная пластина
+item.sky_plate.name=Небесная пластина
+item.insect_plate.name=Насекомая пластина
+item.toxic_plate.name=Токсическая пластина
+item.zap_plate.name=Зап пластина
+item.mind_plate.name=Пластина разума
+item.stone_plate.name=Каменная пластина
+item.earth_plate.name=Земляная пластина
+item.dread_plate.name=Устрашающая пластина
+item.spooky_plate.name=Страшная пластина
+item.iron_plate.name=Железная пластина
+item.fist_plate.name=Первая пластина
+item.icicle_plate.name=Пластина сосулька
+item.draco_plate.name=Драконья пластина
+item.pixie_plate.name=Пластина феи
+item.repel.name=Спрей
+
 item.full_incense.name=Полные Благовония
 item.lax_incense.name=Благовония слабости
 item.luck_incense.name=Благовония удачи
@@ -4120,6 +4146,10 @@ pixelmon.necrozma.description=Это загадочный Легендарный
 pixelmon.necrozma.name=Некрозма
 pixelmon.toucannon.description=Когда он сражается, его клюв нагревается. Температура может легко превышать 212 градусов по Фаренгейту, вызывая сильные ожоги при попадании.
 
+pixelmon.kyurem.changeformback=Форма изменена
+pixelmon.kyurem.fail=Повержен
+pixelmon.kyurem.attemptillegaltrade=Попытка незаконной торговли
+
 pixelmon.unimplemented.description=Этот покемон еще не реализован в Пиксельмон Моде!
 pixels.cutiefly.description=Он питается нектаром и пыльцой цветов. Поскольку он способен ощущать ауры, он может определить, какие цветы будут расцветать.
 
@@ -4385,6 +4415,8 @@ pixelmon.orb.isfull=Ваш орб заполнен!
 
 pixelmon.items.expallon=Весь опыт теперь включен.
 pixelmon.items.expalloff=Весь опыт теперь выключен.
+pixelmon.items.repeloff=Спрей выключен.
+pixelmon.items.repelon=Спрей включен, осталось %s шагов.
 
 //Достижения
 achievement.ItemFinderChieve=Охотник за ПокеЛутом!
