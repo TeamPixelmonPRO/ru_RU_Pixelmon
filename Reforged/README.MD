@@ -1,5 +1,5 @@
 ![Pixelmon.PRO - Лучший Российский Pixelmon проект!](https://image.prntscr.com/image/TTqR6FQvTRm6jwmIAP6okQ.png)
-# Pixelmon Reforged 6.1.0 localization
+## Pixelmon Reforged 6.1.0 localization
 Быстрая навигация по переводу:
 
 ###[Предметы](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L7)
