@@ -12,7 +12,7 @@
 - [Reborn localization](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/tree/master/Reborn/)
 - [Pixelmon Mod 3.5.1 localization](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/tree/master/Pixelmon3.5.1)
 
-### Oficial links
+### Official links
 - [Pixelmon Mod (1.7.10-1.10.2)](http://pixelmonmod.com)
 - [Wiki Pixelmon Mod](http://pixelmonmod.com/wiki/index.php?title=Main_Page)
 - [Pixelmon Reforged (1.12.2)](https://reforged.gg)
