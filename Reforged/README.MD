@@ -2,7 +2,7 @@
 # Pixelmon Reforged 6.1.0 localization
 Быстрая навигация по переводу:
 
-####[Предметы](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L7)
+###[Предметы](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L7)
 - [Покеболлы](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L61)
 - [Значки(Баджи)](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L138)
 - [Медицина](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L190)
@@ -20,28 +20,28 @@
 - [Пластинки](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L918)
 - [Камни Мега-Эволюций](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L936)
 
-####[Блоки](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L992)
+###[Блоки](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L992)
 - [Декоративные](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L1077)
 - [Браиль](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L1162)
 - [Вкладки режима креатива](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L1246)
 - [Неизвестные блоки](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L6135)
 
-####[Атаки и их описание](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L1257)
-####[Покемоны и их описание](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L2507)
-####[Основные сообщения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L5235)
-####[Сообщения команд](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L3959)
-####[Сообщения блоков](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4193)
-####[Сообщения Эффектов](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L5738)
-####[Сообщения Статусов](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L5948)
-####[Сообщения PixelUtilites](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L6122)
+###[Атаки и их описание](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L1257)
+###[Покемоны и их описание](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L2507)
+###[Основные сообщения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L5235)
+###[Сообщения команд](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L3959)
+###[Сообщения блоков](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4193)
+###[Сообщения Эффектов](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L5738)
+###[Сообщения Статусов](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L5948)
+###[Сообщения PixelUtilites](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L6122)
 
 ###[Интерфейс](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4561)
 
-####[Достижения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4259)
+###[Достижения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4259)
 - [PixelUtilites Достижения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4378)
-####[Способности](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4432)
+###[Способности](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4432)
 - [Названия и описание Способностей](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L5327)
-####[Разведение](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4536)
+###[Разведение](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4536)
 
 ###[Другое](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4047)
 - [Покеболлы](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L4125)
