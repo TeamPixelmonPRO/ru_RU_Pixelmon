@@ -1,4 +1,4 @@
-![Pixelmon.PRO - Лучший Российский Pixelmon проект!](https://image.prntscr.com/image/5PtJnX82Sqm8TVwE8FBFKw.png
+![Pixelmon.PRO - Лучший Российский Pixelmon проект!](https://image.prntscr.com/image/5PtJnX82Sqm8TVwE8FBFKw.png)
 # ru_RU language - Full localization for Pixelmon mod all versions!
 Полная Русская локализация мода последних актуальных версий [Pixelmon mod](https://pixelmonmod.com).
 Данный перевод выполнен администраторами и игроками с проекта [Pixelmon.PRO](https://pixelmon.pro). Надеемся, к переводу добавятся энтузиасы (люди вне нашего проекта), которым это будет интересно :)
