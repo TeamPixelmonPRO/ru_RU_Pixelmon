@@ -50,4 +50,3 @@
 
 ###[Настройки](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L6107)
 - [Настройки и конфигурация мода](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/7b14915e4139b8202843f5719e42e2664bff6d0e/Reforged/ru_RU.lang#L6169)
-
