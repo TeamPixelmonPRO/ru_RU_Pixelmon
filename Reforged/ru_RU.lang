@@ -4384,6 +4384,31 @@ advancements.pokedex_75.description=Заполните 75% Покедекса.
 advancements.pokedex_100.title=Pixelmon.PRO: Мастер Покемонов!
 advancements.pokedex_100.description=Заполните 100% Покедекса.
 
+advancements.legendary_capture.title=Легенда, прикиньте, она существует!!!
+advancements.legendary_capture.description=Pixelmon.PRO: Поймайте легендарного Покемона.
+advancements.mewtwo_capture.title=Обледеневшая курица - я вам не курица :/ (c) Articuno
+advancements.mewtwo_capture.description=Pixelmon.PRO: Поймайте Артикуно.
+advancements.mewtwo_capture.title=Электрическая курица? Она танцует?
+advancements.mewtwo_capture.description=Pixelmon.PRO: Поймайте Запдоса.
+advancements.mewtwo_capture.title=Курочка из KFC
+advancements.mewtwo_capture.description=Pixelmon.PRO: Поймайте Молтреса
+advancements.mewtwo_capture.title=Познай мою мощь!
+advancements.mewtwo_capture.description=Pixelmon.PRO: Поймайте МьюТу.
+advancements.mew_capture.title=Утибожечки, какая милота…
+advancements.mew_capture.description=Pixelmon.PRO: Поймайте Мью.
+advancements.mew_capture.title=Гром гремит, кусты трясуться, что там делают?
+advancements.mew_capture.description=Pixelmon.PRO: Поймайте Райку.
+advancements.mew_capture.title=Огненный Зверь
+advancements.mew_capture.description=Pixelmon.PRO: Поймайте Энтея.
+advancements.mew_capture.title=Водный Зверь
+advancements.mew_capture.description=Pixelmon.PRO: Поймайте Суйкуна.
+advancements.mew_capture.title=Пойман лучший танк!
+advancements.mew_capture.description=Pixelmon.PRO: Поймайте Лугию.
+advancements.mew_capture.title=Удача ваш верный спутник!
+advancements.mew_capture.description=Pixelmon.PRO: Поймайте Хо-Оха.
+advancements.mew_capture.title=Позвольте мне рассказать вам о птицах и пчелах, а также о цветках и деревьях...
+advancements.mew_capture.description=Pixelmon.PRO: Поймайте Селеби.
+
 //PixelUtilities достижения
 /*
 *   Знаки %s / %d работают как плейсхолдеры, убирать или
@@ -6549,3 +6574,7 @@ pixelmon.config.useBetaSpawner.comment=Нужно ли использовать 
 pixelmon.config.verticalSliceRadius.comment=Вертикальный радиус областей, случайно выбранных рядом с игроком, для спавна. Снижение для лучшей производительности, но менее надежного спавна. Чем больше по горизонтали, тем лучше поведение игрока.
 pixelmon.config.verticalTrackFactor.comment=Как много 'шагов' игровой трекер-спутник даст на основне их вертикального радиуса. Как правило, наилучшим образом, является ноль из-за помехи, которую может вызвать прыжок.
 pixelmon.config.maxSpawnsPerTick.comment=Максимальное количество спавна ивентов (не число Покемонов) которое может появиться в одном чанке.
+
+pixelmon.config.storage.comment=Параметры хранения для команды и ПК.
+pixelmon.config.useAsyncSaving.comment=Активирует автоматическое сохранение данных команды и ПК. (только сервер)
+pixelmon.config.asyncInterval.comment=Интервал в секундах, в течение которого асинхронная функция сохранения будет сохранять все данные на диск.
