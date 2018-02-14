@@ -988,6 +988,14 @@ item.repel.expire=Срок действия Спрея истек.
 item.super_repel.name=Супер Спрей
 item.max_repel.name=Максимальный Спрей
 
+//6.2
+item.PixelmonSprite.name=Иконка
+item.red_chain.name=Красная Цепь
+item.red_chain_shard.name=Осколок Красной Цепи
+item.ruby_azelf.name=Рубин Силы Воли
+item.ruby_mesprit.name=Рубин Эмоции
+item.ruby_uxie.name=Рубин Знаний
+
 //Блоки
 /*
 *   Практически такая же основная концепция здесь. Середина представляет
