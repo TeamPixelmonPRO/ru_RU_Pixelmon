@@ -4228,7 +4228,12 @@ pixelmon.blocks.orbnotfull=Ваш Орб не заполнен!
 pixelmon.blocks.orbwrong=Ваша Орб не совместим с этим Святилищем!
 pixelmon.blocks.shrineused=Это Святилише уже было использовано!
 
-pixelmon.blocks.tradefull=Обменная машина занята!
+pixelmon.blocks.timespace.notorb=Это не временная сфера!
+pixelmon.blocks.timespace.inuse=Этот алтарь в настоящее время вызывает Покемона!
+pixelmon.blocks.timespace.needchain=Алтарь должен быть связан Красной Цепью!
+pixelmon.blocks.timespace.alreadychain=Этот алтарь уже был связан Красной Цепью!
+
+pixelmon.blocks.tradefull=Обменная машина сейчас кем то занята!
 pixelmon.blocks.trader.ownership=Эта Обменная машина не принадлежит вам.
 
 pixelmon.blocks.noclone=У вас нет ничего для клонирования!
