@@ -37,8 +37,7 @@
 
 ### [Достижения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/6d3c4d356863555571c783daf828d9750a41b4ba/Reforged/ru_RU.lang#L4042)
 - [PixelUtilites Достижения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/6d3c4d356863555571c783daf828d9750a41b4ba/Reforged/ru_RU.lang#L4090)
-- [Новые Достижения]
-(https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/6d3c4d356863555571c783daf828d9750a41b4ba/Reforged/ru_RU.lang#L6415)
+- [Новые Достижения](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/6d3c4d356863555571c783daf828d9750a41b4ba/Reforged/ru_RU.lang#L6415)
 
 ### [Способности](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/6d3c4d356863555571c783daf828d9750a41b4ba/Reforged/ru_RU.lang#L5206)
 - [Названия и описание Способностей](https://github.com/TeamPixelmonPRO/ru_RU_Pixelmon/blob/6d3c4d356863555571c783daf828d9750a41b4ba/Reforged/ru_RU.lang#L5206)
