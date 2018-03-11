@@ -6507,3 +6507,6 @@ item.porygon_piece_head.name=Голова Поригона
 item.porygon_piece_body.name=Тело Поригона
 item.porygon_piece_leg.name=Ноги Поригона
 item.porygon_piece_tail.name=Хвост Поригона
+gui.pokemoneditor.lake_enchants=Чары
+pixelmon.config.lakeTrioMaxEnchants=Количество раз, сколько Azelf, Mesprit и Uxie могут зачаровать рубин
+pixelmon.config.lakeTrioMaxEnchants.comment=Устанавливает количество раз, сколько Azelf, Mesprit и Uxie могут зачаровать рубин.
