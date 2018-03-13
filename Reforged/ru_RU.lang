@@ -5011,6 +5011,7 @@ replacemove.replace=%s забыл %s и выучил %s!
 externalMove.forage.name=Корм
 
 externalMove.Cut.fail=%s не является достаточно сильным, чтобы снизить!
+externalMove.megaEvolution.name=Мега-Эволюция
 
 sendpixelmon.sentout=Вы призвали %s!
 sendpixelmon.cantbattle=%s не может биться дальше!
