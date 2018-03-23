@@ -6502,7 +6502,7 @@ advancements.hooh_capture.description=Поймайте Хо-Ох'а.
 advancements.celebi_capture.title=Позвольте мне рассказать вам о птицах и пчелах, а также о цветках и деревьях...
 advancements.celebi_capture.description=Поймайте Селеби.
 
-//6.3.0 ?
+//6.2.2
 item.porygon_piece.name=Поригон
 item.porygon_piece_head.name=Голова Поригона
 item.porygon_piece_body.name=Тело Поригона
@@ -6511,3 +6511,5 @@ item.porygon_piece_tail.name=Хвост Поригона
 gui.pokemoneditor.lake_enchants=Чары
 pixelmon.config.lakeTrioMaxEnchants=Количество раз, сколько Azelf, Mesprit и Uxie могут зачаровать рубин
 pixelmon.config.lakeTrioMaxEnchants.comment=Устанавливает количество раз, сколько Azelf, Mesprit и Uxie могут зачаровать рубин.
+//6.2.3
+pixelmon.abilities.sweetveil=Сладкая завеса спасла %s от засыпания!
