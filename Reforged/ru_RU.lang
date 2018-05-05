@@ -888,9 +888,7 @@ item.dusk_stone_helm.name=Шлем из Сумрачного Камня
 item.dusk_stone_plate.name=Нагрудник из Сумрачного Камня
 item.dusk_stone_legs.name=Поножи из Сумрачного Камня
 item.dusk_stone_boots.name=Ботинки из Сумрачного Камня
-item.picket_fence.name=Забор из Кольев
-tile.picket_fence_cross.name=Крест Забора из Кольев
-tile.picket_fence_corner.name=Угол Забора из Кольев
+tile.picket_fence.name=Забор из Кольев
 item.meteorite.name=Метеорит
 item.gracidea.name=Грасидия
 item.reveal_glass.name=Открытое стекло
@@ -978,6 +976,11 @@ item.super_repel.name=Супер Спрей
 item.max_repel.name=Максимальный Спрей
 
 item.dna_splicers.name=ДНК-пресс
+item.porygon_piece.name=Поригон
+item.porygon_piece_head.name=Голова Поригона
+item.porygon_piece_body.name=Тело Поригона
+item.porygon_piece_leg.name=Ноги Поригона
+item.porygon_piece_tail.name=Хвост Поригона
 
 tile.braille_block.A.name=Блок Брайля A
 tile.braille_block.B.name=Блок Брайля B
@@ -3785,6 +3788,9 @@ pixelmon.command.breed.invalidslot=Аргумент слота %s недопус
 pixelmon.command.breed.notcompatible=%s и %s несовместимы!
 pixelmon.command.breed.novalidpairs=Не найдены совместимые пары размножения %s в группе.
 pixelmon.command.breed.nullslot=Нет Покемонов в слоте %s!
+pixelmon.command.checkspawns.betterspawningisoff=Better Spawning is off. Turn it on with /spawning beta.
+pixelmon.command.checkspawns.spawns.inthisarea=Spawns in this area: %s
+pixelmon.command.checkspawns.spawns.atthisposition=Spawns at this position: %s
 pixelmon.command.copyToDB.disabled=Сохранение в базе данных не включено в конфигурации!
 pixelmon.command.endbattle.notinbattle=%s не в битве.
 pixelmon.command.endbattle.endbattle=Битва успешно завершена.
@@ -3798,6 +3804,7 @@ pixelmon.command.general.notingame=%s не в игре!
 pixelmon.command.general.invalid=Недопустимые аргументы!
 pixelmon.command.general.invalidplayer=Не верное имя игрока! Попробуйте ещё раз.
 pixelmon.command.general.inbattle=Вы не можете использовать эту команду во время битвы!
+pixelmon.command.general.needtobeplayer=You must be a player to use this command!
 pixelmon.command.give.givesuccess=Успешно передал игроку %s покемона %s!
 pixelmon.command.give.notifygive=%s передал игроку %s покемона %s!
 pixelmon.command.give.givesuccessegg=Успешно передал игроку %s яйцо %s!
@@ -3806,7 +3813,6 @@ pixelmon.command.heal.cantheal=Не удается вылечить %s, пока
 pixelmon.command.heal.healed=Успешно вылечил %s!
 pixelmon.command.heal.notifyhealed=%s успешно вылечил Покемонов %s!
 pixelmon.command.snapshot.corners=Углы:
-pixelmon.command.snapshot.convert=%s был преобразован и сохранен.
 pixelmon.command.snapshot.errorread=Произошла ошибка при чтении %s.
 pixelmon.command.snapshot.load=Снимок загруженного блока от %s. Снимок.
 pixelmon.command.snapshot.nobounds=Ограничений для сохранения еще не задано!
@@ -3849,6 +3855,10 @@ pixelmon.command.trainerhat.invalidcolour=Недопустимые цвета д
 pixelmon.command.reload.error.shopitems=Не удается обновить данные товаров в магазине!
 pixelmon.command.reload.error.npcs=Не удалось загрузить данные НПС!
 pixelmon.command.reload.done=Данные НПС и предметов в магазинах перезагружены.
+pixelmon.command.megaring.received=You have been given a Mega Ring.
+pixelmon.command.megaring.success=%s has been given a Mega Ring.
+pixelmon.command.megaring.alreadyhas=%s already has a Mega Ring.
+pixelmon.command.megaring.notify=%s has given %s a Mega Ring.
 
 //Другое
 pixelmon.drops.fullinventory=Ваш инвентарь полон! %s были сброшены на землю!
@@ -4305,7 +4315,7 @@ gui.trading.nuf=Игрок не найден!
 gui.trading.trade=Обмен
 gui.trading.select=Выбрать Покемона
 
-gui.pokedex.pokedex=Покедекс
+gui.pokedex.pokedex=Покедекс Pixelmon.PRO
 gui.pokedex.height=Рост: 
 gui.pokedex.weight=Вес: 
 gui.pokedex.more=Доп. Инфо
@@ -4439,10 +4449,9 @@ gui.npceditor.page2=Страница 2
 gui.npceditor.page3=Страница 3
 gui.npceditor.page4=Страница 4
 
-gui.tradereditor.shiny=Ш
-gui.tradereditor.level=Уровень
 gui.tradereditor.offer=Предложение:
 gui.tradereditor.exchange=Обмен
+gui.tradereditor.description=Описание обмена:
 gui.tradereditor.delete=Удалить торговца
 gui.tradereditor.changeTrainer=Сменить торговца
 gui.tradereditor.random=Перемешать
@@ -4470,6 +4479,7 @@ gui.pokemoneditor.notallowedplayer=%s не позволяет редактиро
 gui.pokemoneditor.editedplayer=%s редактирует вашего Покемона.
 gui.pokemoneditor.cancelediting=%s редактирование отменено.
 gui.pokemoneditor.clones=Клоны
+gui.pokemoneditor.lake_enchants=Чары
 
 gui.overlay1v1.lv=Ур.
 
@@ -4766,15 +4776,15 @@ gui.tutor.cantlearn=Не может выучить
 gui.tutor.already=Уже выучил
 
 gui.ranch.managePokemon=Поставить покемонов
-gui.ranch.claimEgg=Потребовать яйцо
+gui.ranch.claimEgg=Забрать яйцо
 gui.ranch.extendplusx=+X
 gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Продлить Местность Ранч Блока
 gui.ranch.empty=Нет покемонов в Ранч Блоке
-ranch.hourglass.upgradedall=Все покемоны увеличили свой уровень
-ranch.hourglass.upgrade=%s увеличивается уровень
+ranch.hourglass.upgradedall=Увеличен уровень разведения у всех покемонов
+ranch.hourglass.upgrade=%s, увеличен уровень разведения
 
 gui.trader.eggDescription=Интересно, что из этого выйдет...
 
@@ -5025,6 +5035,7 @@ spawn.legendarymessage=Заспавнился Легендарный покем�
 ruby.success=%s наполнил ваш рубин своей жизненной силой!
 ruby.fail.level=%s не обладает достаточной мощностью для наполнения рубином!
 ruby.fail.happiness=%s недостаточно для того, чтобы наделить вас своей силой!
+ruby.fail.count=%s has exhausted its power to infuse rubies!
 ruby.fail.owner=%s не доверяет вам достаточно, чтобы наделить вас своей силой!
 
 @Author Dayaffe
@@ -5594,14 +5605,14 @@ pixelmon.battletext.wasnoteffectivetarget=Это было не очень эфф
 pixelmon.battletext.supereffective=Это было очень эффективно!
 pixelmon.battletext.supereffectivetarget=Это было очень эффективно для %s!
 pixelmon.battletext.missedattack=%s избежал нападения!
-pixelmon.battletext.butmovefailed=Неудачно!
+pixelmon.battletext.butmovefailed=Но неудачно!
 pixelmon.battletext.used=%s использовал %s!
 pixelmon.battletext.sentout=%s вызвал %s!
 
 pixelmon.battletext.megareact=%s %s реагирует на %s камень Мега Эволюции!
 pixelmon.battletext.megaevolve=%s эволюционировал в Мега %s!
 pixelmon.battletext.ashgreninja.react=Грениндзя стал полностью заряжен из-за своей связи с %s!
-pixelmon.battletext.ashgreninja.evolve=Ваш Грениндзя превратился в Эш Грениндзя!
+pixelmon.battletext.ashgreninja.evolve=Ваш Грениндзя превратился в Эш Грениндзю!
 
 pixelmon.effect.fairyaura=%s увеличил силу волшебных атак!
 pixelmon.effect.regainedenergy=%s восстановил энергию!
@@ -6067,6 +6078,7 @@ pixelmon.config.spawnGyms=Спавн Гимов
 pixelmon.config.spawnLevelsByDistance=Уровни спавна покемонов по расстоянию
 pixelmon.config.maxLevelByDistance=Максимальный уровень спавна покемонов по расстоянию
 pixelmon.config.distancePerLevel=Расстояние на уровень
+pixelmon.config.alwaysHaveMegaRing=Всегда есть Мега Кольцо
 
 pixelmon.config.spawning.gens.comment=Поколения Покемонов
 pixelmon.config.Gen1=Поколение 1
@@ -6150,6 +6162,7 @@ pixelmon.config.reusableBirdShrines=Разрешить повторное исп
 pixelmon.config.spawnersOpOnly=Использовать спавнеры только OP
 pixelmon.config.needHMToRide=Включить HM для езды
 pixelmon.config.cloningMachineEnabled=Включить клонирование
+pixelmon.config.lakeTrioMaxEnchants=Количество раз, сколько Азельф, Месприт и Юкси могут зачаровать рубин
 pixelmon.config.tradersReusable=Трейдеры являются многоразовыми
 pixelmon.config.allowGemCrafting=Разрешить создание Гемов
 pixelmon.config.allowEventMoveTutors=Разрешить спавн Тренеров
@@ -6160,6 +6173,13 @@ pixelmon.config.useSystemTimeForWorldTime=Синхронизировать си�
 pixelmon.config.systemTimeSyncInterval=Секунды между синхронизациями времени
 pixelmon.config.enablePokedexWikiWebsiteOpen=Разрешить Покедексу открыть Вики
 pixelmon.config.useExternalJSONFiles=Использование внешних файлов JSON
+pixelmon.config.useExternalJSONFilesDrops=Использовать внешние файлы JSON для дропа
+pixelmon.config.useExternalJSONFilesMoves.comment=Использовать внешние файлы JSON для атак
+pixelmon.config.useExternalJSONFilesNPCs=Использовать внешние файлы JSON для НПС
+pixelmon.config.useExternalJSONFilesRules=Использовать внешние файлы JSON для Правил Битвы
+pixelmon.config.useExternalJSONFilesSpawning=Использовать внешние файлы JSON для Спавна
+pixelmon.config.useExternalJSONFilesStats=Использовать внешние файлы JSON для Статистики
+pixelmon.config.useExternalJSONFilesStructures=Использовать внешние файлы JSON для Структур
 pixelmon.config.chunkSpawnRadius=Распределение чанков спавна покемонов
 pixelmon.config.battleAIWild=Битва с Диким покемоном AI
 pixelmon.config.battleAIBoss=Битва с Боссом покемоном AI
@@ -6269,6 +6289,7 @@ pixelmon.config.reusableBirdShrines.comment=Установите Легенда�
 pixelmon.config.spawnersOpOnly.comment=Если true, вы должно быть Оператором для использования Спавнеров Покемонов. Если значение false, вы должны быть в режиме Креатива.
 pixelmon.config.needHMToRide.comment=Требуется HM Fly для летающих и HM Surf для водных покемонов, чтобы на них можно было передвигаться.
 pixelmon.config.cloningMachineEnabled.comment=Разрешить игрокам использовать клонирующие машины для клонирования Mew в Mewtwo.
+pixelmon.config.lakeTrioMaxEnchants.comment=Устанавливает количество раз, сколько Azelf, Mesprit и Uxie могут зачаровать рубин.
 pixelmon.config.tradersReusable.comment=Установить трейдеров на одно использование (false) или многократное использование (true).
 pixelmon.config.allowGemCrafting.comment=Позволяет игрокам создавать 17 типов Гемов.
 pixelmon.config.allowEventMoveTutors.comment=Позволяет перемещать наставников, которые учат атакам.
@@ -6278,7 +6299,12 @@ pixelmon.config.enablePointToSteer.comment=Позволяет управлять
 pixelmon.config.useSystemTimeForWorldTime.comment=Позволяет вашему миру следовать за временем реального мира или нет (использует системные часы сервера).
 pixelmon.config.systemTimeSyncInterval.comment=Время, затраченное до синхронизации с системными часами (в секундах).
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Позволяет Покедексу открывать страницы официальной Wiki. Отключите это, если вы не хотите, чтобы вики открывались изнутри Pixelmon.
-pixelmon.config.useExternalJSONFiles.comment=Загрузите внешние файлы конфигурации из папки Pixelmon. Если установлено значение true, и папка Pixelmon не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
+pixelmon.config.useExternalJSONFiles.comment=Загрузить внешние файлы конфигурации из папки Pixelmon. Если установлено значение true, и папка "pixelmon" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
+pixelmon.config.useExternalJSONFilesDrops.comment=Загрузить внешние файлы конфигурации Дропа из папки "pixelmon/drops". Если установлено значение true, и папка "pixelmon/drops" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
+pixelmon.config.useExternalJSONFilesNPCs.comment=Загрузить внешние файлы конфигурации НПС из папки "pixelmon/npcs". Если установлено значение true, и папка "pixelmon/npcs" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
+pixelmon.config.useExternalJSONFilesRules.comment=Загрузить внешние файлы конфигурации Правил Битвы из папки  "pixelmon/rules". Если установлено значение true, и папка "pixelmon/rules" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
+pixelmon.config.useExternalJSONFilesSpawning.comment=Загрузить внешние файлы конфигурации Спавна из папки  "pixelmon/spawning". Если установлено значение true, и папка "pixelmon/spawning" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
+pixelmon.config.useExternalJSONFilesStructures.comment=Загрузить внешние файлы конфигурации Структур из папки "pixelmon/structures". Если установлено значение true, и папка "pixelmon/structures" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
 pixelmon.config.chunkSpawnRadius.comment=Радиус в чанках вокруг игрока, в котором могут спавниться покемоны.
 pixelmon.config.battleAIDescription=1: Выберите атаку случайным образом. 2: Выбрать наиболее разрушительную атаку (с учетом соответствия типов), игнорируя перемещения статусов. 3: Использовать как наступательные, так и статусные атаки.
 pixelmon.config.battleAIDescriptionAdvanced=4: Используйте все атаки разумно и переключайться, когда выгодно.
@@ -6298,6 +6324,7 @@ pixelmon.config.maxLevel.comment=Максимальный уровень, в к�
 pixelmon.config.useDropGUI.comment=Отображать графический интерфейс с дропом Покемона после победы над обычным Покемоном.
 pixelmon.config.ridingSpeedMultiplier.comment=Коэффициент скорости, с которой передвигается покемон. Может быть между 0 и 1.
 pixelmon.config.berryTreeGrowthMultiplier.comment=Множитель скорости, при которой растут ягоды. Может быть между 0.1 и 1000.
+pixelmon.config.alwaysHaveMegaRing.comment=Устанавливает, имеют ли игроки по умолчанию Мега Кольцо
 
 pixelmon.config.spawnTickRate.comment=Количество тиков перед попыткой создания объектов.
 pixelmon.config.spawnDimensions.comment=Список измерений, в которых будет создаваться Покемон.
@@ -6408,6 +6435,8 @@ pixelmon.config.useBetaSpawner.comment=Нужно ли использовать 
 pixelmon.config.verticalSliceRadius.comment=Вертикальный радиус областей, случайно выбранных рядом с игроком, для спавна. Снижение для лучшей производительности, но менее надежного спавна. Чем больше по горизонтали, тем лучше поведение игрока.
 pixelmon.config.verticalTrackFactor.comment=Как много 'шагов' игровой трекер-спутник даст на основне их вертикального радиуса. Как правило, наилучшим образом, является ноль из-за помехи, которую может вызвать прыжок.
 pixelmon.config.maxSpawnsPerTick.comment=Максимальное количество спавна ивентов (не число Покемонов) которое может появиться в одном чанке.
+pixelmon.config.canPokemonBeHit.comment=Устанавливает, может ли Дикий Покемон быть ранен физическими атаками.
+pixelmon.config.bossRate.comment=Скорость спавна Боссов-Покемонов в дикой природе (1/x), не включая мега боссов.
 
 pixelmon.config.storage.comment=Параметры хранения для команды и ПК.
 pixelmon.config.useAsyncSaving.comment=Активирует автоматическое сохранение данных для команды и ПК. (только сервер)
@@ -6501,15 +6530,21 @@ advancements.hooh_capture.title=Удача ваш новый спутник!
 advancements.hooh_capture.description=Поймайте Хо-Ох'а.
 advancements.celebi_capture.title=Позвольте мне рассказать вам о птицах и пчелах, а также о цветках и деревьях...
 advancements.celebi_capture.description=Поймайте Селеби.
+time.dawn=Рассвет
+time.morning=Утро
+time.day=День
+time.midday=Полдень
+time.afternoon=Вечер
+time.dusk=Закат
+time.night=Ночь
+time.midnight=Полночь
 
-//6.2.2
-item.porygon_piece.name=Поригон
-item.porygon_piece_head.name=Голова Поригона
-item.porygon_piece_body.name=Тело Поригона
-item.porygon_piece_leg.name=Ноги Поригона
-item.porygon_piece_tail.name=Хвост Поригона
-gui.pokemoneditor.lake_enchants=Чары
-pixelmon.config.lakeTrioMaxEnchants=Количество раз, сколько Azelf, Mesprit и Uxie могут зачаровать рубин
-pixelmon.config.lakeTrioMaxEnchants.comment=Устанавливает количество раз, сколько Azelf, Mesprit и Uxie могут зачаровать рубин.
-//6.2.3
+weather.clear=Ясно
+weather.rain=Дождь
+weather.storm=Гроза
+externalmoves.headbutt.nothing=Ничего не произошло.
+externalmoves.headbutt.battle=%s упал с дерева!
+//6.3.0?
+pixelmon.command.heal.permissionother=У вас нет разрешения, лечить Покемонов других игроков!
+//Maybe soon
 pixelmon.abilities.sweetveil=Сладкая завеса спасла %s от засыпания!
