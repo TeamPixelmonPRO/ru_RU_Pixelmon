@@ -902,6 +902,7 @@ item.red_chain_shard.name=Осколок Красной Цепи
 item.ruby_azelf.name=Рубин Силы Воли
 item.ruby_mesprit.name=Рубин Эмоции
 item.ruby_uxie.name=Рубин Знаний
+item.azure_flute.name=Лазурная Флейта
 
 item.record.asmbts.desc=Простой Момент у Моря
 item.record.atd.desc=Через Пустыню
@@ -4013,6 +4014,10 @@ pixelmon.blocks.timespace.inuse=Этот алтарь в настоящее вр
 pixelmon.blocks.timespace.needchain=Алтарь должен быть связан Красной Цепью!
 pixelmon.blocks.timespace.alreadychain=Этот алтарь уже был связан Красной Цепью!
 
+pixelmon.items.azure.fail=Лазурная флейта сломалась пополам...
+pixelmon.blocks.plate.fail=Энергия этой пластины уже присутствует!
+pixelmon.blocks.plate.add=%d пластины остаются!
+
 pixelmon.blocks.tradefull=Обменная машина занята!
 pixelmon.blocks.trader.ownership=Эта Обменная машина не принадлежит вам.
 
@@ -4531,6 +4536,7 @@ gui.model.walk=Гуляет
 gui.model.idle=Простой
 gui.model.fly=Летить
 gui.model.swim=Плывёт
+gui.model.special=Форма
 
 gui.megaitem.message=Вы нашли Мега-Браслет! Хотите надеть его?
 
@@ -5213,6 +5219,7 @@ tile.dusty_ruins_wall.name=Стена пыльных руин
 tile.poke_grass.name=ПокеТрава
 tile.spawner_cave_rock.name=Спавнер пещерных камней
 tile.timespace_altar.name=Временной алтарь
+tile.plateholder.name=Духовная чаша
 
 Box.name=Коробка
 Fridge.name=Холодильник
@@ -5613,6 +5620,7 @@ pixelmon.battletext.used=%s использовал %s!
 pixelmon.battletext.sentout=%s вызвал %s!
 
 pixelmon.battletext.megareact=%s %s реагирует на %s камень Мега Эволюции!
+pixelmon.battletext.rayquazamegareact=%s действует на Рэйквазу!
 pixelmon.battletext.megaevolve=%s эволюционировал в Мега %s!
 pixelmon.battletext.ashgreninja.react=Грениндзя стал полностью заряжен из-за своей связи с %s!
 pixelmon.battletext.ashgreninja.evolve=Ваш Грениндзя превратился в Эш Грениндзю!
@@ -6557,5 +6565,10 @@ weather.storm=Гроза
 
 externalmoves.headbutt.nothing=Ничего не произошло.
 externalmoves.headbutt.battle=%s упал с дерева!
+
+spawning.collections.default=Группа по умолчанию
+spawning.collections.items=Предметы
+spawning.collections.pokemon=Покемоны
+spawning.collections.npc=НПС
 //Keep it
 pixelmon.abilities.sweetveil=Сладкая завеса спасла %s от засыпания!
