@@ -5367,6 +5367,8 @@ ability.Defiant.name=Непокорность
 ability.Defiant.description=Усиливает атаку Покемона, когда уменьшены некоторые статистики.
 ability.DeltaStream.name=Дельта-Поток
 ability.DeltaStream.description=Создает сильный ветер, когда способность активируется.
+ability.DesolateLand.name=Пустынная Земля
+ability.DesolateLand.description=Солнечный свет начинает светить очень сильно после активации способности.
 ability.Download.name=Загрузка
 ability.Download.description=Корректирует мощность в зависимости от статов противоположного Покемона.
 ability.Drizzle.name=Изморось
@@ -5535,6 +5537,8 @@ ability.Prankster.name=Проказник
 ability.Prankster.description=Приоритет статусной атаки.
 ability.Pressure.name=Давление
 ability.Pressure.description=Покемон поднимает ОД против противника.
+ability.PrimordialSea.name=Первозданное Море
+ability.PrimordialSea.description=Создает сильный ливень при активации способности.
 ability.Protean.name=Изменчивость
 ability.Protean.description=Изменяет тип покемона на тип атаки, которую он использует.
 ability.PurePower.name=Чистая сила
@@ -6179,6 +6183,9 @@ pixelmon.config.maxLevelByDistance=Максимальный уровень сп�
 pixelmon.config.distancePerLevel=Расстояние на уровень
 pixelmon.config.alwaysHaveMegaRing=Всегда есть Мега Кольцо
 
+pixelmon.config.bellInclusionRange=Диапазон включения колокола
+pixelmon.config.bellSuccessChance=Шанс успеха колокола
+
 pixelmon.config.spawning.gens.comment=Поколения Покемонов
 pixelmon.config.Gen1=Поколение 1
 pixelmon.config.Gen2=Поколение 2
@@ -6426,9 +6433,11 @@ pixelmon.config.spawnTickRate.comment=Количество тиков перед
 pixelmon.config.spawnDimensions.comment=Список измерений, в которых будет создаваться Покемон.
 pixelmon.config.shinySpawnRate.comment=Расчет Шайни 1/(Количество покемонов) чтобы заспавнился Шайни Покемон.
 pixelmon.config.bossSpawnTicks.comment=Среднее количество тиков до появления босса Покемона.
+pixelmon.config.bossSpawnChance.comment=Шанс спавна дикого мега босса (0-1)
 pixelmon.config.legendarySpawnTicks.comment=Среднее количество тиков до попытки спавна Легендарного покемона (изменено случайным шансом).
 pixelmon.config.legendaryRepeatSpawnTicks.comment=Минимальное количество тиков перед тем, как легендарный покемон может появиться снова (через главного спаунера).
 pixelmon.config.legendarySpawnChance.comment=Шанс на успешную попытку Легендарного спавна (0-1).
+pixelmon.config.spawnTicksPlayerMultiplier.comment=Множитель, который ускоряет создание легендарного и мега-босса на основе количества игроков. ticks = spawnTicks / (1 + (количество игроков - 1) * spawnTicksPlayerMultiplier)
 pixelmon.config.hiddenAbilitySpawnRate.comment=Шанс спавна дикого покема с его скрытой способностью (1 / темп). 0 отключает скрытые способности.
 pixelmon.config.allowLegendarySpawn.comment=Разрешить появление диких Легенд (помимо появления особых событий).
 pixelmon.config.displayLegendaryGlobalMessage.comment=Показывает общесистемное оповещение A Legendary has spawned in <name>  biome, когда Легендарный засавнился.
@@ -6440,6 +6449,9 @@ pixelmon.config.spawnGyms.comment=Устанавливает спавн Гимо
 pixelmon.config.spawnLevelsByDistance.comment=Устанавливает, определяются ли уровни покемона по расстоянию от точки спавна мира.
 pixelmon.config.maxLevelByDistance.comment=Максимальный уровень Pokemon будет появляться в тот момент, когда включены уровни по расстоянию.
 pixelmon.config.distancePerLevel.comment=Количество блоков для уровня увеличивается, когда уровни по расстоянию включены.
+
+pixelmon.config.bellInclusionRange.comment=Диапазон в блоках, которые Clear / Tidal Bells будут искать другие колокола.
+pixelmon.config.bellSuccessChance.comment=Шанс, что звонок, на рассвете, начнет звонить. 1 = 100%.
 
 pixelmon.config.Gen1.comment=Покедекс 1-151
 pixelmon.config.Gen2.comment=Покедекс 152-251
@@ -6652,7 +6664,22 @@ spawning.collections.default=Группа по умолчанию
 spawning.collections.items=Предметы
 spawning.collections.pokemon=Покемоны
 spawning.collections.npc=НПС
+spawning.attemptlegendaryspawn=Попытка легендарного спавна...
+spawning.error.legendaryspawnermissing=Легендарного спавна нет! Это плохо!
+spawning.error.nooneisonline=Никто не онлайн!
+spawning.checkspawns.timeuntilnextattempt1=Время до следующей попытки появления: 
+spawning.checkspawns.timeuntilnextattempt2=%s мунит.
+spawning.checkspawns.chanceofspawning=Шанс спавна:
+spawning.checkspawns.possiblespawns=Возможный спавн:
+spawning.error.mustbeplayer=Вы должны быть игроком или указать игрока, чтобы проверить этот спавн.
+spawning.error.notlookingatblock=%s не смотрит на блок.
+spawning.error.invalidblock=Недопустимый тип блока.
+spawning.error.midairorinvalid=Конкретное местоположение не является допустимым местом появления.
+spawning.error.notfishing=%s в настоящее время не занимается рыболовством.
 
+general.error=Произошла ошибка.
+
+pixelmon.config.renderWildLevels.comment=Должен ли дикий покемон показывать свой уровень выше головы.
 pixelmon.config.pokerus.comment=Все настройки в отношении ПокеВируса (Pokerus).
 pixelmon.config.pkrsEnabled.comment=Включен ли ПокеВирус (Pokerus). Это блокирует рост, распространение и спавн ПокеВирус (Pokerus).
 pixelmon.config.pkrsSpawnRate.comment=Шанс спавна ПокеВирус (Pokerus) (1/x). (0 выключить)
