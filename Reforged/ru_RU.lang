@@ -182,6 +182,13 @@ item.voltage_badge.name=Значок Напряжения
 item.fairy_badge.name=Значок Феи
 item.psychic_badge.name=Психический Значок
 item.iceberg_badge.name=Значок Айсберга
+item.whitebadgecase.name=Белый Ящик Значков
+item.blackbadgecase.name=Черный Ящик Значков
+item.greenbadgecase.name=Зеленый Ящик Значков
+item.pinkbadgecase.name=Розовый Ящик Значков
+item.bluebadgecase.name=Голубой Ящик Значков
+item.redbadgecase.name=Красный Ящик Значков
+item.yellowbadgecase.name=Желтый Ящик Значков
 
 item.rare_candy.name=Редкая Конфета
 item.potion.name=Зелье
@@ -4285,6 +4292,7 @@ pixelmon.ranch.level2=%s все более привлекает %s с кажды
 pixelmon.ranch.level3=%s любовь к %s быстро растет с каждым днем! 75 процентов скорости
 pixelmon.ranch.level4=%s безумно влюбляется в %s каждый день! 100 процентов скорости
 pixelmon.ranch.maxaffection=%s уже любит %s!
+pixelmon.ranch.cannotbreed=%s не может размножаться!
 
 //Интерфейс
 /*
@@ -4532,7 +4540,8 @@ gui.boss.text=Босс:
 gui.mail.seal=Запечатать письмо
 gui.mail.close=Закрыть письмо
 
-gui.nursejoy.name=Медбрат Джой
+gui.nursejoy.name=Медсестра Джой
+gui.nursejohn.name=Медбрат Джон
 gui.nursejoy.healing=Позвольте мне просто исцелить этих покемонов для вас!
 gui.nursejoy.full=Прости. Я не могу найти доступную ПокеЛечебницу.
 
@@ -4656,6 +4665,8 @@ gui.battlerules.clauseviolated=Этот покемон запрещен прав
 gui.battlerules.fullselect=Вы не можете больше выбрать Покемона для этой битвы.
 gui.battlerules.teamviolated=Ваша команда нарушает условие:
 gui.battlerules.teamviolatedforce=Ваша команда была скорректирована из-за нарушения положения: %s.
+
+gui.badgecase.register=Регистрация
 
 enum.aggro.timid=Робкий
 enum.aggro.default=Обычный
@@ -4843,8 +4854,8 @@ trainer.Miner=Шахтер
 trainer.Blacksmith=Кузнец
 
 trainer.model.Steve=Стив
-trainer.model.Custom_RP=Пользовательский пакет ресурсов
-trainer.model.Custom_PN=Пользовательское имя игрока
+trainer.model.Custom_RP=Пользовательский ресурс ресурсов
+trainer.model.Custom_PN=Имя игрока
 trainer.model.santa=Санта
 trainer.model.suit=Костюм
 trainer.model.scottish=Шотландец
@@ -4855,6 +4866,7 @@ trainer.model.youngster3=Молодёж
 trainer.model.youngster4=Мальчик в голубом капюшоне
 trainer.model.youngstergirl=Девочка Малолетка
 trainer.model.youngstergirl2=Девочка в голубом с большими глазами
+trainer.model.lass=Короткая волосатая девочка-подросток
 trainer.model.bugcatcher1=Пчеловод
 trainer.model.bugcatcher2=Супер ловец жуков
 trainer.model.bugcatcher3=Ловец Жуков
@@ -5045,9 +5057,9 @@ deletemove.forgot=%s забыл %s!
 replacemove.replace=%s забыл %s и выучил %s!
 
 externalMove.forage.name=Корм
+externalMove.megaEvolution.name=Мега Эволюция
 
 externalMove.Cut.fail=%s не является достаточно сильным, чтобы снизить!
-externalMove.megaEvolution.name=Мега-Эволюция
 
 sendpixelmon.sentout=Вы призвали %s!
 sendpixelmon.cantbattle=%s не может биться дальше!
@@ -5230,7 +5242,18 @@ tile.orange_clock.name=Оранжевые часы
 tile.yellow_clock.name=Желтые часы
 tile.brown_clock.name=Коричневые часы
 tile.red_clock.name=Красные часы
-tile.chair.name=Стул
+tile.red_chair.name=Красный стул
+tile.blue_chair.name=Голубой стул
+tile.pink_chair.name=Розовый стул
+tile.purple_chair.name=Фиолетовый слул
+tile.green_chair.name=Зеленый стул
+tile.cyan_chair.name=Синий стул
+tile.white_chair.name=Белый стул
+tile.gray_chair.name=Серый стул
+tile.black_chair.name=Черный стул
+tile.orange_chair.name=Оранжевый стул
+tile.yellow_chair.name=Желтый слул
+tile.brown_chair.name=Зеленый стул
 tile.end_table.name=Стол
 tile.blue_folding_chair.name=Голубой складной стул
 tile.pink_folding_chair.name=Розовый складной стул
@@ -6083,6 +6106,7 @@ key.pokemonaction=Выбрать Покемона-Мишень
 key.pokemonexternal=Использовал внешнюю атаку
 key.nextexternalmove=Использовал следующюю внешнюю атаку
 key.pokedex=Открыть Покедекс/Вики
+key.trainercard=Открыть карту тренера
 key.wiki=Открыть Вики
 key.spectateBattle=Режим Зрителя
 key.pixelmonoptions=Открыть экран конфигурации
@@ -6163,6 +6187,7 @@ pixelmon.config.spawning.tooltip=Настройки Спавна
 pixelmon.config.starter=Стартер
 pixelmon.config.starter.tooltip=Настройки Стартера
 
+pixelmon.config.renderWildLevels=Показать уровни диких Покемонов
 pixelmon.config.spawnTickRate=Частота спавна
 pixelmon.config.spawnDimensions=Измерения
 pixelmon.config.shinySpawnRate=Степень спавна Шайни (1/x)
@@ -6182,6 +6207,7 @@ pixelmon.config.spawnLevelsByDistance=Уровни спавна покемоно
 pixelmon.config.maxLevelByDistance=Максимальный уровень спавна покемонов по расстоянию
 pixelmon.config.distancePerLevel=Расстояние на уровень
 pixelmon.config.alwaysHaveMegaRing=Всегда есть Мега Кольцо
+pixelmon.config.spawnLevelsCloserToPlayerLevels=Спавн ближе к среднему уровню игрока
 
 pixelmon.config.bellInclusionRange=Диапазон включения колокола
 pixelmon.config.bellSuccessChance=Шанс успеха колокола
@@ -6404,6 +6430,7 @@ pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Позволяет Поке
 pixelmon.config.useExternalJSONFiles.comment=Загрузить внешние файлы конфигурации из папки Pixelmon. Если установлено значение true, и папка "pixelmon" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
 pixelmon.config.useExternalJSONFilesDrops.comment=Загрузить внешние файлы конфигурации Дропа из папки "pixelmon/drops". Если установлено значение true, и папка "pixelmon/drops" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
 pixelmon.config.useExternalJSONFilesNPCs.comment=Загрузить внешние файлы конфигурации НПС из папки "pixelmon/npcs". Если установлено значение true, и папка "pixelmon/npcs" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
+pixelmon.config.useExternalJSONFilesMoves.comment=Загрузить внешние файлы конфигурации Атак из папки "pixelmon/moves". Если установлено значение true, и папка "pixelmon/moves" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
 pixelmon.config.useExternalJSONFilesRules.comment=Загрузить внешние файлы конфигурации Правил Битвы из папки  "pixelmon/rules". Если установлено значение true, и папка "pixelmon/rules" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
 pixelmon.config.useExternalJSONFilesSpawning.comment=Загрузить внешние файлы конфигурации Спавна из папки  "pixelmon/spawning". Если установлено значение true, и папка "pixelmon/spawning" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
 pixelmon.config.useExternalJSONFilesStats.comment=Загрузить внешние файлы конфигурации Спавна из папки  "pixelmon/stats". Если установлено значение true, и папка "pixelmon/stats" не существует, Pixelmon создаст папку и сгенерирует там существующие файлы.
@@ -6636,8 +6663,8 @@ advancements.suicune_capture.title=Водный Зверь
 advancements.suicune_capture.description=Поймайте Суйкуна.
 advancements.lugia_capture.title=Пойман лучший танк!
 advancements.lugia_capture.description=Поймайте Лугию.
-advancements.hooh_capture.title=Удача ваш новый спутник!
-advancements.hooh_capture.description=Поймайте Хо-Ох'а.
+advancements.ho-oh_capture.title=Удача ваш новый спутник!
+advancements.ho-oh_capture.description=Поймайте Хо-Ох'а.
 advancements.celebi_capture.title=Позвольте мне рассказать вам о птицах и пчелах, а также о цветках и деревьях...
 advancements.celebi_capture.description=Поймайте Селеби.
 
@@ -6685,6 +6712,8 @@ pixelmon.config.pkrsEnabled.comment=Включен ли ПокеВирус (Poke
 pixelmon.config.pkrsSpawnRate.comment=Шанс спавна ПокеВирус (Pokerus) (1/x). (0 выключить)
 pixelmon.config.pkrsInformPlayers.comment=Должен ли игрок быть проинформирован, если его покемон получил ПокеВирус (Pokerus).
 pixelmon.config.pkrsSpreadRate.comment=Шанс распространить ПокеВирус (Pokerus) на ближнего покемона после битвы. (1 / x) (-1 для отключения, 0 для сохранения всегда активным)
+pixelmon.config.deleteUnwantedDrops.comment=Независимо от того, нажмете ли кнопку «Выбросить все» на экране, удалить предметы или выбросить их на землю.
+pixelmon.config.spawnLevelsCloserToPlayerLevels.comment=Будет ли дикий покемон иметь уровни ближе к покемону игрока.
 pokerus.message.informPrefix=Целитель на вас и автоматическое сообщение.
 pokerus.message.inform1=Ваш Покемон, кажется, был заражен ПокеВирусом (Pokerus), микроскопической формой жизни, о которой мы пока мало знаем :o
 pokerus.message.inform2=ПокеВирус распространяется очень быстро, но, похоже, он не наносит никакого вреда.
