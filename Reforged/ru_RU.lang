@@ -216,6 +216,14 @@ item.blue_flute.name=Синяя Флейта
 item.yellow_flute.name=Жёлтая Флейта
 item.red_flute.name=Красная Флейта
 
+item.rage_candy_bar.name=Сладости Ярости
+item.lava_cookie.name=Лавовая Печенька
+item.old_gateau.name=Старое Желе
+item.casteliacone.name=Кастелэскимо
+item.lumiose_galette.name=Галетт Люмиоза
+item.shalour_sable.name=Шалом Сабля
+item.big_malasada.name=Большая Маласада
+
 item.hp_up.name=Повышатель ОЗ
 item.protein.name=Протеин
 item.iron.name=Железо
@@ -999,6 +1007,8 @@ item.porygon_piece_leg.name=Ноги Поригона
 item.porygon_piece_tail.name=Хвост Поригона
 
 item.sacredash.name=Священный Ясень
+
+potion.repel=Спрей
 
 tile.braille_block.A.name=Блок Брайля A
 tile.braille_block.B.name=Блок Брайля B
@@ -6713,6 +6723,7 @@ pixelmon.config.pkrsSpawnRate.comment=Шанс спавна ПокеВирус (
 pixelmon.config.pkrsInformPlayers.comment=Должен ли игрок быть проинформирован, если его покемон получил ПокеВирус (Pokerus).
 pixelmon.config.pkrsSpreadRate.comment=Шанс распространить ПокеВирус (Pokerus) на ближнего покемона после битвы. (1 / x) (-1 для отключения, 0 для сохранения всегда активным)
 pixelmon.config.deleteUnwantedDrops.comment=Независимо от того, нажмете ли кнопку «Выбросить все» на экране, удалить предметы или выбросить их на землю.
+pixelmon.config.chanceToGetSpecialBidoof.comment=Возможность получить Специального Bidoof, если ловить его с помощью Лакшери Покеболла. (-1 для отключения)
 pixelmon.config.spawnLevelsCloserToPlayerLevels.comment=Будет ли дикий покемон иметь уровни ближе к покемону игрока.
 pokerus.message.informPrefix=Целитель на вас и автоматическое сообщение.
 pokerus.message.inform1=Ваш Покемон, кажется, был заражен ПокеВирусом (Pokerus), микроскопической формой жизни, о которой мы пока мало знаем :o
