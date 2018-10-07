@@ -5585,7 +5585,7 @@ sendpixelmon.retrieved=Вы возвратили %s!
 
 camera.error.samepokemon=Вы уже сделали снимок этого %s!
 
-spawn.legendarymessage=Заспавнился Легендарный покемон!
+spawn.legendarymessage=Заспавнился Легендарный покемон %s в %s биоме!
 
 ruby.success=%s наполнил ваш рубин своей жизненной силой!
 ruby.fail.level=%s не обладает достаточной мощностью для наполнения рубином!
@@ -11855,7 +11855,7 @@ gui.chooseNPC.chatting=Начать переписываться с НПС
 gui.chooseNPC.relearner=Создать Тренера по Атакам
 gui.chooseNPC.tutor=Создать Тренера
 gui.chooseNPC.nursejoy=Создать Медбрата
-gui.chooseNPC.doctor=Create Doctor
+gui.chooseNPC.doctor=Создать Доктора
 gui.chooseNPC.shopkeeper=Создать Продавца
 
 gui.shopkeeper.json=Тип
@@ -11865,8 +11865,8 @@ gui.pokemoneditor.pokeball=Покеболл
 gui.pokemoneditor.importexport=Импорт/Экспорт
 gui.pokemoneditor.save=Сохранить
 gui.pokemoneditor.reset=Сброс
-gui.pokemoneditor.copy=Copy
-gui.pokemoneditor.paste=Paste
+gui.pokemoneditor.copy=Копировать
+gui.pokemoneditor.paste=Вставить
 gui.pokemoneditor.cancel=Отмена
 gui.pokemoneditor.errorimport=Ошибка импорта
 gui.pokemoneditor.notallowedserver=Вы не можете использовать редактор Покемонов.
@@ -11924,7 +11924,7 @@ gui.model.walk=Гуляет
 gui.model.idle=Простой
 gui.model.fly=Летить
 gui.model.swim=Плывёт
-gui.model.special=Special
+gui.model.special=Специальный
 
 gui.megaitem.message=Вы получили Мега-Браслет! Хотите надеть его?
 
@@ -13112,7 +13112,7 @@ pixelmon.effect.wagfinger=%s помахал пальцем!
 pixelmon.effect.OHKO=Оу! Нокаут с одного удара!
 pixelmon.effect.painsplit=Бойцы поделились ОЗ!
 pixelmon.effect.payday=Монетки рассыпаны везде.
-pixelmon.effect.paydayend=%s found %s PokéDollars!
+pixelmon.effect.paydayend=%s нашёл %s ПокеДолларов!
 pixelmon.effect.psycheup=%s скопировал изменения параментров %s!
 pixelmon.effect.raisestats=%s статистику!
 pixelmon.effect.freefrom=%s освободился от %s!
@@ -13435,7 +13435,7 @@ pixelmon.status.grassyterrainend=Трава исчезла с поля боя.
 pixelmon.status.sportfade=Эффекты %s исчезли.
 pixelmon.status.iondeluge=Поток ионов обрушился на поле боя!
 pixelmon.status.matblock=%s был заблокирован поднятым матом!
-pixelmon.status.matblock=%s was blocked by the kicked-up mat!
+pixelmon.status.matblock=%s был заблокирован поднятым ковриком!
 pixelmon.status.mistyterrain=Мистический ландшафт появился на поле битвы!
 pixelmon.status.mistyterrainend=Мистический ландшафт исчез с поля битвы.
 pixelmon.status.powder=%s покрыт порохом!
@@ -13914,7 +13914,7 @@ pixelmon.config.eventCoords.comment=Укажите координаты собы
 
 pixelmon.config.elevatorSearchRange.comment=Максимальный диапазон поиска / вниз для соединяющегося лифта.
 
-pixelmon.config.starterLevel.comment=Уровень (min
+pixelmon.config.starterLevel.comment=Уровень (мин 5 максимум 100)
 pixelmon.config.starterShiny.comment=Шайни Стартовые Покемоны.
 pixelmon.config.starterList.comment=Список Стартовых Покемонов (максимум 18).
 
