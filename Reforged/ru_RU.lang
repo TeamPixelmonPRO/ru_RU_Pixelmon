@@ -11272,8 +11272,8 @@ pixelmon.general.errorlog=Произошла ошибка в сражении! �
 
 pixelmon.npc.tradername=Обменщик
 pixelmon.npc.trader=У вас нет необходимого Покемона! Я бы хотел %s.
-p
-ixelmon.npc.relearnername=Наставник
+
+pixelmon.npc.relearnername=Наставник
 pixelmon.npc.relearnersetitem=Стоимость повторного обучения теперь %s (x%d).
 pixelmon.npc.relearnernoitem=Теперь Наставник свободен.
 pixelmon.npc.relearnerfull=Вы не можете добавить этот предмет!
@@ -11339,7 +11339,7 @@ pixelmon.helditems.custapberry=%s эффект Ягоды Кастап позв�
 pixelmon.helditems.pumkinberry=%s использовал Ягоду Памкин и оттаял!
 pixelmon.helditems.shellbell=%s восстановил немного ОЗ, используя Бубенчик!
 pixelmon.helditems.leftovers=%s Огрызок восстановили немного ОЗ!
-pixelmon.helditem.lifeowner=%s lost some HP!
+pixelmon.helditem.lifeowner=%s потерял несколько ОЗ!
 pixelmon.helditems.focussash= был спасён %s Лентой Фокуса!
 pixelmon.helditems.focusband= был спасён %s Ободом Фокуса!
 pixelmon.helditems.blacksludgepsn=%s был ранен Черной Слизью!
