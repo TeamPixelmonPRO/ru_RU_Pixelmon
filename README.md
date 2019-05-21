@@ -30,7 +30,7 @@
 Оставайся с нами - покажи на сколько ты "PRO" во вселенной покемонов!
 
 # Project links
-- [Pixelmon.PRO](https://pixelmon.pro/)
+- [Pixelmon.PRO](https://pixelmon.pro)
 - [RU Wiki Pixelmon](https://pixelmon.pro/wiki/)
 - [VK сообщество](https://vk.com/pixelmonpro)
-- [Discord сообщество](https://discord.gg/9HFYe3y)
+- [Discord сообщество](http://discord.pixelmon.pro)
