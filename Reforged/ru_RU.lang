@@ -5777,7 +5777,7 @@ applyperish.heard=%s услышал Губительную песню!
 applyperish.already=%s уже слышал песню!
 
 playerparticipant.enough=Хватит, %s!
-playerparticipant.withdrew=%s снял %s!
+playerparticipant.withdrew=%s спрятал %s!
 playerparticipant.go=Давай, %s!
 playerparticipant.load=Не могу загрузить Атаки покемонов!
 
