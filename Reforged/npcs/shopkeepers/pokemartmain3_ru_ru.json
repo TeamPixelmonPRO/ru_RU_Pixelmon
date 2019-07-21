@@ -1,0 +1,89 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shoplady4.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Суки"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Здравствуйте, могу я помочь вам подобрать снаряжение для Покемона? У нас есть несколько хороших предложений.",
+      "goodbye": "Спасибо за вашу покупку. С нетерпением ждём возможности помочь вам снова"
+    },
+    {
+      "hello": "Добро пожаловать в Поке Маркет. Ищите что-то особенное?",
+      "goodbye": "Пока! Приходите к нам снова!"
+    }
+  ],
+ "items": [
+    {
+      "name": "pixelmon:poke_ball",
+      "multi": 1.2
+    },
+    {
+      "name": "pixelmon:great_ball"
+    },
+    {
+      "name": "pixelmon:ultra_ball",
+      "multi": 1.1,
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:friend_ball",
+      "rarity": 0.3
+    },
+    {
+      "name": "pixelmon:heal_ball",
+      "rarity": 0.3
+    },
+    {
+      "name": "pixelmon:luxury_ball",
+      "rarity": 0.3
+    },
+    {
+      "name": "pixelmon:moomoo_milk",
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:heal_powder"
+    },
+    {
+      "name": "pixelmon:energy_powder"
+    },
+    {
+      "name": "pixelmon:energy_root"
+    },
+    {
+      "name": "pixelmon:revival_herb",
+      "rarity": 0.7
+    },
+    {
+      "name": "pixelmon:x_attack"
+    },
+    {
+      "name": "pixelmon:x_defence"
+    },
+    {
+      "name": "pixelmon:x_special_attack"
+    },
+    {
+      "name": "pixelmon:x_special_defence"
+    },
+    {
+      "name": "pixelmon:x_speed"
+    },
+    {
+      "name": "pixelmon:x_accuracy"
+    },
+    {
+      "name": "pixelmon:dire_hit"
+    }
+  ]
+}
