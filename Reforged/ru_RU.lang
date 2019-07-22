@@ -5777,7 +5777,7 @@ applyperish.heard=%s услышал Губительную песню!
 applyperish.already=%s уже слышал песню!
 
 playerparticipant.enough=Хватит, %s!
-playerparticipant.withdrew=%s снял %s!
+playerparticipant.withdrew=%s спраятал %s!
 playerparticipant.go=Давай, %s!
 playerparticipant.load=Не могу загрузить Атаки покемонов!
 
@@ -7698,5 +7698,5 @@ pokerus.message.inform1=Ваш Покемон, кажется, был зараж
 pokerus.message.inform2=ПокеВирус распространяется очень быстро, но, похоже, он не наносит никакого вреда.
 pokerus.message.inform3=Иногда он даже оказался полезным для роста Покемона, хотя инфекции, похоже, недолговечны.
 
-generator.ultra_space=Ультра Космос
+generator.ultra_space=Ультра Пространство
 generator.ultra_space.info=Нет тумана, нормальная гравитация. Пустота убивает!
