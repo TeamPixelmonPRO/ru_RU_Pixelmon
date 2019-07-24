@@ -1,0 +1,113 @@
+{
+  "data": {
+    "type": "PokemartSecond"
+  },
+  "textures": [
+    {
+      "name": "shoplady2.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Миссис Финнеган"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Здравствуйте, добро пожаловать в наш Поке Маркет. У нас огромный ассортимент росокшных предметов.",
+      "goodbye": "Спасибо за ваши покупки в Поке Маркете."
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:pokemail_air"
+    },
+    {
+      "name": "pixelmon:pokemail_bloom"
+    },
+    {
+      "name": "pixelmon:pokemail_brick"
+    },
+    {
+      "name": "pixelmon:pokemail_bridged"
+    },
+    {
+      "name": "pixelmon:pokemail_bridgem"
+    },
+    {
+      "name": "pixelmon:pokemail_bridges"
+    },
+    {
+      "name": "pixelmon:pokemail_bridgev"
+    },
+    {
+      "name": "pixelmon:pokemail_bubble"
+    },
+    {
+      "name": "pixelmon:pokemail_dream"
+    },
+    {
+      "name": "pixelmon:pokemail_fab"
+    },
+    {
+      "name": "pixelmon:pokemail_favored"
+    },
+    {
+      "name": "pixelmon:pokemail_flame"
+    },
+    {
+      "name": "pixelmon:pokemail_glitter"
+    },
+    {
+      "name": "pixelmon:pokemail_grass"
+    },
+    {
+      "name": "pixelmon:pokemail_greet"
+    },
+    {
+      "name": "pixelmon:pokemail_heart"
+    },
+    {
+      "name": "pixelmon:pokemail_inquiry"
+    },
+    {
+      "name": "pixelmon:pokemail_like"
+    },
+    {
+      "name": "pixelmon:pokemail_mech"
+    },
+    {
+      "name": "pixelmon:pokemail_mosaic"
+    },
+    {
+      "name": "pixelmon:pokemail_orange"
+    },
+    {
+      "name": "pixelmon:pokemail_reply"
+    },
+    {
+      "name": "pixelmon:pokemail_retro"
+    },
+    {
+      "name": "pixelmon:pokemail_rsvp"
+    },
+    {
+      "name": "pixelmon:pokemail_snow"
+    },
+    {
+      "name": "pixelmon:pokemail_space"
+    },
+    {
+      "name": "pixelmon:pokemail_steel"
+    },
+    {
+      "name": "pixelmon:pokemail_thanks"
+    },
+    {
+      "name": "pixelmon:pokemail_wave"
+    },
+    {
+      "name": "pixelmon:pokemail_wood"
+    }
+  ]
+}

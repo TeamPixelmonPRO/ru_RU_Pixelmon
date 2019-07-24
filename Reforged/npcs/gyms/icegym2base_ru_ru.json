@@ -1,0 +1,22 @@
+{
+  "npctype": "trainer",
+  "winnings": 32,
+
+  "skins": [
+    {
+      "filename": "fisherman.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Рыбак"
+    }
+  ],
+  "chat": [
+    {
+      "opening": "Тебе нравится здешний холод??",
+      "win": "Этот холод лучший!",
+      "lose": "Как я мог проиграть!?"
+    }
+  ]
+}

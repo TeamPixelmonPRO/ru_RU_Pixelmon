@@ -1,0 +1,22 @@
+{
+  "npctype": "trainer",
+  "winnings": 52,
+
+  "skins": [
+    {
+      "filename": "miner.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Джордж"
+    }
+  ],
+  "chat": [
+    {
+      "opening": "Ты падёшь!",
+      "win": "У тебя нет шансов.",
+      "lose": "Ты уже пришёл со мной на встречу."
+    }
+  ]
+}

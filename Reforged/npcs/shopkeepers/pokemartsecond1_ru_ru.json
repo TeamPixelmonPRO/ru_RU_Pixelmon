@@ -1,0 +1,727 @@
+{
+  "data": {
+    "type": "PokemartSecond"
+  },
+  "textures": [
+    {
+      "name": "shoplady.png"
+    },
+    {
+      "name": "shoplady2.png"
+    },
+    {
+      "name": "shopsecondman.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Миссис Хаммерсмит"
+    },
+    {
+      "name": "Миссис Финнеган"
+    },
+    {
+      "name": "Мистер Прендергаст"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Добро пожаловать в наш прекрасный магазие. Я уверен в качестве наших товаров.",
+      "goodbye": "Были рады встречи. Хорошего дня."
+    },
+    {
+      "hello": "Здравствуйте, добро пожаловать в наш Поке Маркет. У нас огромный ассортимент росокшных предметов.",
+      "goodbye": "Спасибо за ваши покупки в Поке Маркете."
+    },
+    {
+      "hello": "Добро пожаловать! Наш Поке Маркет предлагает вам самые качественные каналы.",
+      "goodbye": "Это было действительно почтительно иметь дело с вами."
+    },
+    {
+      "hello": "Добро пожаловать в наш Поке Маркет. Наслаждайтесь просмотром нашего роскошного ассортимента.",
+      "goodbye": "Удачного вам дня, и спасибо за ваши покупки."
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:tm1",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm2",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm3",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm4",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm5",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm6",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm7",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm8",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm9",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm10",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm11",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm12",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm13",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm14",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm15",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm16",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm17",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm18",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm19",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm20",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm21",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm22",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm23",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm24",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm25",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm26",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm27",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm28",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm29",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm30",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm31",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm32",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm33",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm34",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm35",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm36",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm37",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm38",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm39",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm40",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm41",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm42",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm43",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm44",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm45",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm46",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm47",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm48",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm49",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm50",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm51",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm52",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm53",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm54",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm55",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm56",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm57",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm58",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm59",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm60",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm61",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm62",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm63",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm64",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm65",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm66",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm67",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm68",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm69",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm70",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm71",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm72",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm73",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm74",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm75",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm76",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm77",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm78",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm79",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm80",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm81",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm82",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm83",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm84",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm85",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm86",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm87",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm88",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm89",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm90",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm91",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm92",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm93",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm94",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm95",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm96",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm97",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm98",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm99",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm100",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm101",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm102",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm103",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm104",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm105",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm106",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm107",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm108",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm109",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm110",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm111",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm112",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm113",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm114",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm115",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm116",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm117",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm118",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm119",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm120",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm121",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm122",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm123",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm124",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm125",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm126",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm127",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm128",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm129",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm130",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm131",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm132",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm133",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm134",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm135",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm136",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm137",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm138",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm139",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm140",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm141",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm142",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm143",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm144",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm145",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm146",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm147",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm148",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm149",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm150",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm151",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm152",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm153",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm154",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm155",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm156",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm157",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm158",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm159",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm160",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm161",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm162",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm163",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm164",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm165",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm166",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm167",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm168",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm169",
+      "rarity": 0.05
+    },
+    {
+      "name": "pixelmon:tm170",
+      "rarity": 0.05
+    }
+  ]
+}

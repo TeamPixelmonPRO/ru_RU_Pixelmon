@@ -1,0 +1,22 @@
+{
+  "npctype": "trainer",
+  "winnings": 32,
+
+  "skins": [
+    {
+      "filename": "firebreather3.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Огнедышащий"
+    }
+  ],
+  "chat": [
+    {
+      "opening": "Тебе было весело разминаться здесь?",
+      "win": "Огонь всегда побеждает!",
+      "lose": "Мошенник!"
+    }
+  ]
+}
