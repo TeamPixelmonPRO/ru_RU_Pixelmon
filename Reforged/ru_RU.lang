@@ -214,6 +214,8 @@ item.yellow_flute.name=Желтая Флейта
 item.red_flute.name=Красная Флейта
 
 item.hp_up.name=Рост ОЗ
+item.pp_up.name=Рост ОД
+item.pp_max.name=ОД Макс
 item.protein.name=Протеин
 item.iron.name=Железо
 item.calcium.name=Кальций
@@ -2027,6 +2029,8 @@ attack.defog.name=Рассеивание
 attack.defog.description=Понижает уклонение цели на 1 ступень. Убирает дополнительные эффекты на поле противника.
 attack.discharge.name=Разрядка
 attack.discharge.description=Имеет 30 процентов вероятность парализовать цель.
+attack.double iron bash.name=Двойной железный удар
+attack.double iron bash.description=Покемон вращается, центрируя шестигранную гайку в своей груди, а затем наносит удары руками два раза подряд. Это также может заставить цель дрогнуть.
 attack.double hit.name=Двойной Удар
 attack.double hit.description=Бьёт два раза за ход.
 attack.draco meteor.name=Драко-Метеор
@@ -4487,7 +4491,8 @@ pixelmon.command.battle2.cantstart=Недействительные участн
 pixelmon.command.breed.giveegg=%s и %s снесли яйцо!
 pixelmon.command.breed.invalidslot=Слот %s недопустим!
 pixelmon.command.breed.notcompatible=%s и %s несовместимы!
-pixelmon.command.breed.novalidpairs=Не найдены совместимые пары размножения %s.
+pixelmon.command.breed.same=Вы не можете разводить %s с самим собой!
+pixelmon.command.breed.egg=Вы не можете разводить %s с яйцом!
 pixelmon.command.breed.nullslot=Нет Покемонов в слоте %s!
 pixelmon.command.checkspawns.betterspawningisoff=Беттер спавнер сейчас отключен. Введите /spawning beta.
 pixelmon.command.checkspawns.spawns.inthisarea=Спавнятся в биомах: %s
@@ -4560,6 +4565,11 @@ pixelmon.command.megaring.received=Вы получили Мега-Кольцо.
 pixelmon.command.megaring.success=%s выдано Мега-Кольцо.
 pixelmon.command.megaring.alreadyhas=%s уже имеет Мега-Кольцо.
 pixelmon.command.megaring.notify=%s выдал %s Мега-Кольцо.
+pixelmon.command.shinycharm.received=Вы получили Сияющий Талисман.
+pixelmon.command.shinycharm.success=%s был выдан Сияющий Талисман.
+pixelmon.command.shinycharm.alreadyhas=%s уже имеет Сияющий Талисман.
+pixelmon.command.shinycharm.notify=%s выдал %s Сияющий Талисман.
+pixelmon.command.multipleSuccess=Успешно выполненна команда для %s.
 
 #Другое
 pixelmon.drops.fullinventory=Ваш инвентарь полон! %s были сброшены на землю!
@@ -4641,8 +4651,9 @@ pixelmon.blocks.maxPlants=Рядом слишком много Априкорн�
 
 #Покеболы
 pixelmon.pokeballs.inbattle=Этот Покемон уже находится в битве!
-pixelmon.pokeballs.alreadyown=Вы не можете словить Покемона, который у вас уже есть!
-pixelmon.pokeballs.boss=Вы не можете словить Покемона Босса!
+pixelmon.pokeballs.alreadyown=Вы не можете поймать Покемона, который у вас уже есть!
+pixelmon.pokeballs.boss=Вы не можете поймать Покемона Босса!
+pixelmon.pokeballs.aura=Вы не можете поймать этого покемона!
 pixelmon.pokeballs.throw=%s бросил %s!
 pixelmon.pokeballs.capture=Вы поймали %s!
 pixelmon.pokeballs.capturetransform=Оу? Вы поймали %s?!
@@ -5197,6 +5208,9 @@ gui.pokemoneditor.editedplayer=%s редактирует вашего Покем
 gui.pokemoneditor.cancelediting=%s редактирование отменено.
 gui.pokemoneditor.clones=Клоны
 gui.pokemoneditor.lake_enchants=Чары
+gui.pokemoneditor.smelts=Плавка
+
+gui.chisel.notallowedserver=Вы не можете использовать Стамески (Chisels_.
 
 gui.overlay1v1.lv=Ур.
 
@@ -5251,6 +5265,9 @@ gui.model.fly=Летить
 gui.model.swim=Плывёт
 
 gui.megaitem.message=Вы получили Мега-Браслет! Хотите надеть его?
+
+gui.shinycharm.message=Вы нашли Сияющий Талисман! Хотите надеть его?
+
 
 gui.battlerules.title=Правила Битвы
 gui.battlerules.propose=Предложить
@@ -5462,6 +5479,7 @@ gui.mainmenu.traped=$p в ловушке! Вы не можете сбежать!
 gui.mainmenu.trainer=Вы не можете убежать из этой битвы!
 gui.mainmenu.already=Вы уже выбрали другое действие в этом ходу!
 gui.mainmenu.megaevolution=Мега-Эволюция
+gui.mainmenu.ultraburst=Ультра-Взрыв
 gui.mainmenu.zmove=Z-Сила
 
 gui.choosebag.pokeballs=Покеболлы
@@ -5777,7 +5795,7 @@ applyperish.heard=%s услышал Губительную песню!
 applyperish.already=%s уже слышал песню!
 
 playerparticipant.enough=Хватит, %s!
-playerparticipant.withdrew=%s снял %s!
+playerparticipant.withdrew=%s спраятал %s!
 playerparticipant.go=Давай, %s!
 playerparticipant.load=Не могу загрузить Атаки покемонов!
 
@@ -5799,6 +5817,7 @@ replacemove.replace=%s забыл %s и выучил %s!
 externalMove.forage.name=Корм
 externalMove.megaEvolution.name=Мега Эволюция
 externalMove.primalReversion.name=Праймал Форма
+externalMove.ultraBurst.name=Ультра Взрыв
 externalMove.wormhole.name=Спавн Червоточины
 
 externalMove.Cut.fail=%s не является достаточно сильным, чтобы снизить!
@@ -6479,12 +6498,21 @@ pixelmon.battletext.butmovefailed=Но неудачно!
 pixelmon.battletext.used=%s использовал %s!
 pixelmon.battletext.sentout=%s вызвал %s!
 pixelmon.battletext.cantuse=Но %s не может использовать атаку!
+pixelmon.battletext.aura=%s аура вспыхнула к жизни!
+pixelmon.battletext.statsrosespecific1=%s выросла!
+pixelmon.battletext.statsrose1=Его статистика выросла!
+pixelmon.battletext.statsrosespecific2=%s резко выросла!
+pixelmon.battletext.statsrose2=Его статистика резко выросла!
+pixelmon.battletext.statsrosespecific3=%s координально выросла!
+pixelmon.battletext.statsrose3=Его статистика координально выросла!
 
 pixelmon.battletext.megareact=%s %s реагирует на %s камень Мега-Эволюции!
 pixelmon.battletext.ashgreninja.react=Грениндзя стал полностью заряжен из-за своей связи с %s!
 pixelmon.battletext.megaevolve=%s эволюционировал в Мега-%s!
+pixelmon.battletext.ultraburst=Некрозма восстановил свою истинную силу с помощью Ультра Взрыва!
 pixelmon.battletext.ashgreninja.evolve=Ваш Грениндзя превратился в Эш-Грениндзю!
 pixelmon.battletext.rayquazamegareact=%s действует на Рэйквазу!
+pixelmon.battletext.necrozmaultrareact=Яркий свет вот-вот взорвется из Некрозмы!
 pixelmon.battletext.primalreversion=%s извлек силу природы и изменился в Праймал Форму!
 
 pixelmon.effect.fairyaura=%s увеличил силу волшебных атак!
@@ -6695,6 +6723,7 @@ pixelmon.effect.auroraveil.already=Уже поднял Аврора Вуаль!
 pixelmon.effect.mysteriousaircurrent=Создан таинственный поток воздуха!
 pixelmon.effect.mysteriousaircurrentfaded=Таинственный поток воздуха исчез.
 pixelmon.effect.sacredash=Ваша команда полностью восстановлена!
+pixelmon.effect.resetstats=Сниженные характеристики %s были восстановлены!
 pixelmon.status.ringheal=%s вылечился от кольца!
 pixelmon.status.burnhurt=%s повредился от огня!
 pixelmon.status.confusionsnap=%s вышел из растерянности!
@@ -6985,6 +7014,9 @@ pixelmon.config.storage.comment=Настройки хранения команд
 pixelmon.config.elevator=Лифт
 pixelmon.config.elevator.tooltip=Настройки лифта
 pixelmon.config.elevator.comment=Настройки лифта.
+pixelmon.config.healing=Лечение
+pixelmon.config.healing.tooltip=Настройки исцеления
+pixelmon.config.healing.comment=Настройки, которые контролируют, сколько исцеления должно происходить при ходьбе.
 
 
 #
@@ -7000,6 +7032,8 @@ pixelmon.config.allowVanillaMobs=Включить Ванильные сущно�
 pixelmon.config.allowVanillaMobs.comment=Разрешить криперам, скелетам и другим ванильным сущностям появляться в мире. ВНИМАНИЕ, ОПАСНО - вас смогут убить во время битв.
 pixelmon.config.allowCaptureOutsideBattle=Разрешить ловлю Покемонов вне боя
 pixelmon.config.allowCaptureOutsideBattle.comment=Разрешить игроку бросать Покеболлы клавишей и ловить Покемонов вне боя. Если значение false, Покеболлы могут быть брошены только в сражениях.
+pixelmon.config.allowRandomPokemonToBeLegendary=Разрешить покемонов из команд быть легендарным.
+pixelmon.config.allowRandomPokemonToBeLegendary.comment=Разрешить команде /pokegive или из любого pokespec, содержать легендарного покемона.
 pixelmon.config.allowRandomSpawnedEggsToBeLegendary=Случайные PokemonSpec параметры могут содержать легенд
 pixelmon.config.allowRandomSpawnedEggsToBeLegendary.comment=У случайных покемонов, заспавненных командой /pokegive или из любого параметра pokemonspeс, у которого есть возможность создавать Легендарных Покемонов.
 pixelmon.config.growthScaleModifier=Изменение размера роста
@@ -7040,6 +7074,8 @@ pixelmon.config.reusableBirdShrines=Разрешить повторное исп
 pixelmon.config.reusableBirdShrines.comment=Устанавливает Легендарные Святилища для одного использования (false) или для множественного использования (true).
 pixelmon.config.spawnersOpOnly=Использовать спавнеры Покемонов только с OP правами
 pixelmon.config.spawnersOpOnly.comment=Если true, вы должно быть Оператором (OP, разрешения 4 уровня) для использования Спавнеров Покемонов. Если значение false, вы должны быть в режиме Креатива (gamemode 1).
+pixelmon.config.npcEditorOpOnly=NPC Редактор ОP права
+pixelmon.config.npcEditorOpOnly.comment=Если это правда, необходимо использовать редактор NPC. Если false, должен быть в режиме Креатива (gamemode 1).
 pixelmon.config.needHMToRide=Включить HM Атаки для езды на Покемонах
 pixelmon.config.needHMToRide.comment=Требуется диски HM Полёт для летающих и диски HM Сёрфинг для водных покемонов, чтобы на них можно было ездить (передвигаться).
 pixelmon.config.tradersReusable=Многоразовые НПС Трейдеры
@@ -7072,6 +7108,8 @@ pixelmon.config.bedsHealPokemon=Восстановление Покемонов 
 pixelmon.config.bedsHealPokemon.comment=Во время сна на кровати, Покемоны игрока восстанавливаются.
 pixelmon.config.allowPokemonEditors=Разрешить редакторов Покемонов
 pixelmon.config.allowPokemonEditors.comment=Могут ли игроки использовать редактор Покемонов (серверная сторона). Могут ли другие игроки использовать редактор Покемонов (клиентская сторона).
+pixelmon.config.allowChisels=Разрешить Стаместки
+pixelmon.config.allowChisels.comment=На стороне сервера, могут ли игроки использовать Стаместки.
 pixelmon.config.dataSaveOnWorldSave=Сохранение данных при сохранении мира
 pixelmon.config.dataSaveOnWorldSave.comment=Данные игроков принудительно сохраняются во всех мирах (если это false, вы должны сохранять данные через команду /saveall или потеряете все данные!).
 pixelmon.config.useDropGUI=Использовать графический интерфейс (GUI) с дропом Покемонов
@@ -7092,7 +7130,22 @@ pixelmon.config.deleteUnwantedDrops=Удалить ненужный дроп
 pixelmon.config.deleteUnwantedDrops.comment=Независимо от того, нажмете ли кнопку Выбросить все на экране, удалит предметы или выбросит их на землю.
 pixelmon.config.chanceToGetSpecialBidoof=Шанс получения специального Бидуфа (Bidoof)
 pixelmon.config.chanceToGetSpecialBidoof.comment=Возможность получить специального Бидуфа (Bidoof), если ловить его с помощью Лакшери Покеболла (-1 для отключения).
+pixelmon.config.disabledNonPlayerPixelmonMovement=Отключить движение не покемонов игрока
+pixelmon.config.disabledNonPlayerPixelmonMovement.comment=Определяет, отключено или нет движение покемона, не принадлежащего игроку.
 
+#
+# Целительная категория
+#
+pixelmon.config.usePassiveHealer=Пассивное исцеление
+pixelmon.config.usePassiveHealer.comment=Стоит ли пассивно лечить команду покемонов игрока со временем или нет.
+pixelmon.config.chanceToRevivePassively=Возродить шанс
+pixelmon.config.chanceToRevivePassively.comment=Шанс пассивно возродить нокаутированного покемона с каждым шагом.
+pixelmon.config.chanceToHealStatusPassively=Шанс исцеления
+pixelmon.config.chanceToHealStatusPassively.comment=Шанс пассивно исцелить эффекты статуса команды покемонов игрока с каждым шагом.
+pixelmon.config.stepsToHealHealthPassively=Шаги для исцеления
+pixelmon.config.stepsToHealHealthPassively.comment=Количество шагов, после которых нужно вылечить 1 HP команды покемонов игрока.
+pixelmon.config.passiveHealingMaxHealthPercentage=Максимум исцеления
+pixelmon.config.passiveHealingMaxHealthPercentage.comment=Процент максимального здоровья, к которому может подойти пассивное исцеление.
 
 #
 # Категория Спавна
@@ -7123,6 +7176,8 @@ pixelmon.config.transformToDittoOnCatch=Вероятность превраще�
 pixelmon.config.transformToDittoOnCatch.comment=Шанс для дикого покемона превратиться в Ditto при поимке.
 pixelmon.config.meltanSpawnChance=Вероятность появления Мелтана при добыче блока железной руды. 1 / х
 pixelmon.config.meltanSpawnChance.comment=Вероятность появления Мелтана при добыче блока железной руды. 1 / х
+pixelmon.config.meltanTransformChance=Процент вероятности превращения Мелтана в Дитто при ловле.
+pixelmon.config.meltanTransformChance.comment=Процент вероятности превращения Мелтана в Дитто при ловле.
 pixelmon.config.canTransformToDittoOnCatch=Покемон, который может превратиться в Ditto.
 pixelmon.config.canTransformToDittoOnCatch.comment=Покемон, который может превратиться в Ditto.
 pixelmon.config.hiddenAbilitySpawnRate=Скорость появления скрытых способностей
@@ -7347,7 +7402,8 @@ pixelmon.config.ultraSpaceBossModifier=Босс Модификатор
 pixelmon.config.ultraSpaceBossModifier.comment=Изменяет редкость боссов в Ультра Космическом Измерении (bossRate * ultraSpaceBossModifier).
 pixelmon.config.ultraSpaceHiddenAbilityModifier=Хид Модификатор
 pixelmon.config.ultraSpaceHiddenAbilityModifier.comment=Изменяет редкость скрытых способностей в Ультра Космическом Измерении (hiddenAbilitySpawnRate * ultraSpaceHiddenAbilityModifier).
-
+pixelmon.config.ultraSpaceColourblindMode=Ультра-Космос цветной режим
+pixelmon.config.ultraSpaceColourblindMode.comment=Использовать ли Ультра-Космос цветной режим.
 
 #
 # ExternalFiles Category
@@ -7698,5 +7754,5 @@ pokerus.message.inform1=Ваш Покемон, кажется, был зараж
 pokerus.message.inform2=ПокеВирус распространяется очень быстро, но, похоже, он не наносит никакого вреда.
 pokerus.message.inform3=Иногда он даже оказался полезным для роста Покемона, хотя инфекции, похоже, недолговечны.
 
-generator.ultra_space=Ультра Космос
+generator.ultra_space=Ультра Пространство
 generator.ultra_space.info=Нет тумана, нормальная гравитация. Пустота убивает!
