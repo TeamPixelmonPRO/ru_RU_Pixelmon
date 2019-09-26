@@ -459,6 +459,16 @@ item.kee_berry.name=Ягод Ки
 item.maranga_berry.name=Ягода Маранга
 item.roseli_berry.name=Ягода Розали
 
+# Bike lang
+item.road_bike.name=Дорожный Велосипед
+item.road_bike_frame.name=Рама для дорожного велосипеда
+item.acro_bike.name=Акро Велосипед
+item.acro_bike_frame.name=Рама для акро велосипеда
+item.stunt_bike.name=Стант Велосипед
+item.stunt_bike_frame.name=Рама для стант велосипеда
+item.wheel.name=Колесо
+item.handles.name=Руль
+
 item.meadow_plate.name=Луговая Пластина
 item.flame_plate.name=Пламенная Пластина
 item.splash_plate.name=Пластина Всплеска
@@ -586,7 +596,7 @@ item.lava_cookie.name=Лавовое Печенье
 item.old_gateau.name=Старое Пироженое
 item.casteliacone.name=Кастелэскимо
 item.lumiose_galette.name=Галетта Люмиоса
-fitem.shalour_sable.name=Шалур Кекс
+item.shalour_sable.name=Шалур Кекс
 item.big_malasada.name=Большой Пончик
 item.red_shard.name=Красный Осколок
 item.blue_shard.name=Голубой Осколок
@@ -596,6 +606,8 @@ item.red_orb.name=Красный Орб
 item.blue_orb.name=Голубой Орб
 item.jade_orb.name=Нефритовый Орб
 item.sacredash.name=Священный Пепел
+item.gold_bottle_cap.name=Золотая крышка от бутылки
+item.silver_bottle_cap.name=Серебряная крышка от бутылки
 
 tile.poke_chest.name=Поке-Сундук
 tile.ultra_chest.name=Ультра-Сундук
@@ -2410,7 +2422,7 @@ attack.diamond storm.description=Покемон выпускает алмазн�
 attack.disarming voice.name=Обезоружив. Звук
 attack.disarming voice.description=Выпуская очаровательный крик, покемон наносит эмоциональный ущерб противнику. Эта атака никогда не промахивается.
 attack.dragon ascent.name=Восхождение Дракона
-attack.dragon ascent.description=После взлета покемон атакует противника, сбрасываясь с неба на высокой скорости, но это снижает вашу защиту и Сп. защиту.
+attack.dragon ascent.description=После взлета покемон атакует противника, сбрасываясь с неба на высокой скорости, но это снижает вашу защиту и Сп. Защиту.
 attack.draining kiss.name=Дренирующий Поцелуй
 attack.draining kiss.description=Покемонь крадет энергию цели поцелуем. ОЗ восстанавливается больше, чем на половину нанесенного вам урона.
 attack.eerie impulse.name=Жуткий Импульс
@@ -4483,7 +4495,9 @@ pixelmon.command.battle.dimension=Участиники в разных изме�
 pixelmon.command.battle.sameperson=Оба участника не могут быть одним человеком.
 pixelmon.command.battle.started=Битва между %s и %s началась!
 pixelmon.command.battle.nopokemon=:pixelmonpro: :no: §6%s §aне имеет Покемонов, способных сражаться! :sadcat: §r
+pixelmon.command.battle.notenoughpokemon=:pixelmonpro: :no: §6%s §aне хватает покемонов, которые могли бы сражаться!:sadcat: §r
 pixelmon.command.battle2.duplicate=Нельзя иметь повторного Покемона в бою.
+pixelmon.command.battle2.differing=Нельзя иметь одного и того же игрока в разных командах.
 pixelmon.command.battle2.first=Первым участником должен быть игрок.
 pixelmon.command.battle2.invalid=Участник %d недействителен. Пожалуйста, попробуйте еще раз.
 pixelmon.command.battle2.level=Пожалуйста укажите уровень!
@@ -4594,6 +4608,10 @@ pixelmon.interaction.abilitycapsule=§6%s §aспособность измене
 pixelmon.interaction.ppup=§6%s §aувеличены §eОД!§r
 pixelmon.interaction.ppmax=§6%s §aувеличены §eОД §aна максимум!§r
 pixelmon.interaction.ppatmax=§aЭта Атака уже имеет максимум §eОД§a!§r
+pixelmon.interaction.bottlecap.level=§6%s §aдолжен быть 100 уровня, перед использованием этого!§r
+pixelmon.interaction.bottlecap.full=§6%s §aуже имеет самые высокие характеристики!§r
+pixelmon.interaction.bottlecap.goldcap=§6%s §aIV's были максимизированы!§r
+pixelmon.interaction.bottlecap.silvercap=§6%s §4%s §aстатистика была максимизирована!§r
 
 pixelmon.general.noeffect=:pixelmonpro: :info: §aНет никакого эффекта!§r
 pixelmon.general.needop=:pixelmonpro: :warning: §4У вас должны быть OP права, чтобы выполнить эти действия.§r
@@ -5214,8 +5232,8 @@ gui.chisel.notallowedserver=Вы не можете использовать Ст
 
 gui.overlay1v1.lv=Ур. 
 
-gui.starter.trademark1=:pixelmon: §6Добро пожаловать на проект §6Pixelmon§3.§4PRO§6!§r :pixelmonpro:
-gui.starter.trademark2=§aОбязательно выберите клиент Ultra / Lite или 1GB под  характеристии вашегов ПК.§r :warning: 
+gui.starter.trademark1=:pixelmon: §6Добро пожаловать на лучший проект §6Pixelmon§3.§4PRO§6!§r :pixelmonpro:
+gui.starter.trademark2=§aОбязательно выберите пресет Ultra / Lite или 1GB под ваш ПК.§r :warning: 
 gui.starter.trademark3=§aИнформацию по оптимизации игры, вы всегда можете найти на сайте проекта§r :info: 
 gui.starter.trademark4=:yes: §aТеперь, пожалуйста выберите§r
 gui.starter.trademark5=§aСвоего начального покемона§r :pixelmon: 
@@ -5268,6 +5286,7 @@ gui.megaitem.message=§6Вы получили Мега-Браслет! :mega: §
 
 gui.shinycharm.message=§6Вы получили Сияющий Талисман! :shiny: §aХотите надеть его?§r
 
+pixelmon.gui.selectstat=§6Выберите статистику§r
 
 gui.battlerules.title=Правила Битвы
 gui.battlerules.propose=Предложить
@@ -5467,7 +5486,7 @@ gui.battle.back=§5Назад§r
 gui.battle.whatdo=§aЧто будет делать §6$p§a?§r
 gui.battle.type=§r
 
-gui.levelupscreen.lvlup=:pixelmon: :candy: §aВаш §6$p §aвырос до §b$l §aуровня!§r
+gui.levelupscreen.lvlup=:pixelmon: :candy: §aВаш §6%s §aвырос до §b%s §aуровня!§r
 
 gui.mainmenu.fight=§4БИТВА§r
 gui.mainmenu.bag=§bМЕШОК§r
@@ -6515,7 +6534,6 @@ pixelmon.battletext.rayquazamegareact=§6%s §aдействует на §4Рэй
 pixelmon.battletext.necrozmaultrareact=§eЯркий свет вот-вот взорвется из §6Некрозмы§e!§r
 pixelmon.battletext.primalreversion=§6%s §aизвлек силу природы и изменился в §6Праймал Форму§a!§r
 
-pixelmon.effect.fairyaura=§6%s §bувеличил силу волшебных атак!§r
 pixelmon.effect.regainedenergy=§6%s §aвосстановил энергию!§r
 pixelmon.effect.atedreams=§6%s §5отправил §6%s §5в сон!§r
 pixelmon.effect.notasleep=§5%s §aне спит!§r
@@ -6531,6 +6549,7 @@ pixelmon.effect.wagfinger=§6%s §aпомахал пальцем!§r
 pixelmon.effect.OHKO=§6Оу! §4Нокаут с одного удара!§r
 pixelmon.effect.painsplit=§aБойцы поделились ОЗ!§r
 pixelmon.effect.payday=§6Монетки рассыпаны везде.§r
+pixelmon.effect.paydayend=§6%s §eнашел §6%s §4ПокеДолларов§e!§r
 pixelmon.effect.psycheup=§6%s §dскопировал изменения параментров §6%s§d!§r
 pixelmon.effect.raisestats=§6%s §aстатистику!§r
 pixelmon.effect.freefrom=§6%s §aосвободился от §3%s§a!§r
@@ -6540,6 +6559,7 @@ pixelmon.effect.ppdrop=§6%s §5%s §3ОД §aупали!§r
 pixelmon.effect.struggle=§6%s §aвынужден использовать Рукопашный бой!§r
 pixelmon.effect.suicide=§6%s §4самоуничтожился!§r
 pixelmon.effect.bidetime=§6%s §aждал!§r
+pixelmon.effect.burnup=§6%s §cсгорел!§r
 pixelmon.effect.storeenergy=§6%s §eсобирал энергию!§r
 pixelmon.effect.unleashenergy=§6%s §eвыпустил энергию!§r
 pixelmon.effect.attackfailed=§6%s §3Атака пропущена!§r
@@ -6611,6 +6631,7 @@ pixelmon.effect.speedtoolow=§aСкорость §6%s §aна минимуме!�
 pixelmon.effect.surroundedbywater=§a%s §aплывёт среди воды!§r
 pixelmon.effect.surroundwithwater=§6%s §aплывёт среди воды!§r
 pixelmon.effect.burnt=§6%s §4обожжён!§r
+pixelmon.effect.beakblast.start=§6%s §eначал §cнагревать §eсвой клюв!§r
 pixelmon.effect.failed=§6%s §aпромахнулся!§r
 pixelmon.effect.nomoveyet=§6%s §aещё не использовал Атаку!§r
 pixelmon.effect.alreadydisabled=§6%s §aуже выключен!§r
@@ -6688,6 +6709,7 @@ pixelmon.effect.snatched=§6%s §aкрадёт Атаку противника!�
 pixelmon.effect.powerswap=§6%s §aпоменялся Атакой и Специальной Атакой с §e%s§a!§r
 pixelmon.effect.guardswap=§6%s §aпоменялся Защитой и Специальной защитой с §e%s§a!§r
 pixelmon.effect.heartswap=§6%s §aпоменялся параметрами с §e%s§a!§r
+pixelmon.effect.speedswap=§6%s §aпоменялся Скоростью с §e%s§a!§r
 pixelmon.effect.entrainment=§6%s §aспособность была изменена с §e%s §aна §e%s§a!§r
 pixelmon.effect.feint=§6%s §aудалена §e%s §aЗащита!§r
 pixelmon.effect.fling=§6%s §aбросил §e%s§a!§r
@@ -6726,6 +6748,7 @@ pixelmon.effect.sacredash=§6Ваша команда полностью восс
 pixelmon.effect.resetstats=§aСниженные характеристики §6%s §aбыли восстановлены!§r
 pixelmon.status.ringheal=§6%s §aвылечился от §eкольца§a!§r
 pixelmon.status.burnhurt=§6%s §aповредился от §4огня§a!§r
+pixelmon.status.burn.added=§6%s §cсгорел!§r
 pixelmon.status.confusionsnap=§6%s §aвышел из растерянности!§r
 pixelmon.status.confused=§6%s §5растерян...§r
 pixelmon.status.confusionhurtself=§6%s §aударился из-за §5растерянности§a!§r
@@ -6760,9 +6783,11 @@ pixelmon.status.rainstopped=§aДождь закончился.§r
 pixelmon.status.heavyrain=§9Идёт сильный Дождь!§r
 pixelmon.status.recharging=§6%s §aперезаряжается!§r
 pixelmon.status.reflectoff=§6Отражение закончилось!§r
+pixelmon.status.auroraveiloff=§6%s §aАврора вуаль стерлась!§r
 pixelmon.status.safeguardoff=§6%s §aзащитное поле закончилось!§r
 pixelmon.status.sandstormsubside=§eПесочная Буря §aзакончилась.§r
 pixelmon.status.sandstormrage=§eПесочная Буря §aусиливается!§r
+pixelmon.effect.spectralthief=§6%s §eизменения статистик были удалены!§r
 pixelmon.status.buffetedbysandstorm=§6%s §aбыл поврежден §eПесочной Бурей§a!§r
 pixelmon.status.wokeup=§6%s §aпроснулся!§r
 pixelmon.status.stillsleeping=§6%s §5ещё спит!§r
@@ -7043,6 +7068,8 @@ pixelmon.config.pokemonDropsEnabled.comment=Позволяет дикому по
 pixelmon.config.printErrors=Показать более подробные ошибки
 pixelmon.config.printErrors.comment=Выводит более подробные сообщения об ошибках в файл server.log, если он включен.
 pixelmon.config.allowRiding=Разрешить езду на Покемонах
+pixelmon.config.allowShinyCharmFromPokedex=Разблокировать Сияющий Талисман за Покедекс
+pixelmon.config.allowShinyCharmFromPokedex.comment=Позволяет разблокировать Сияющий Талисман после заполнения Покедекса.
 pixelmon.config.allowRiding.comment=Разрешить игрокам ездить на Покемонах. Если false, то езда на Покемонах отключена (управляется на стороне сервера).
 pixelmon.config.allowPlanting=Разрешить посадку Априкорновые деревья
 pixelmon.config.allowPlanting.comment=Разрешить игрокам сажать Априкорновые деревья на земле.
