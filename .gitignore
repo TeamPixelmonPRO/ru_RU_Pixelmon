@@ -1,3 +1,31 @@
-
+#Folders to ignore
+bin/
+target/
+build/
+Reforged_Site/
+.externalToolBuilders/
 .DS_Store
+
+#Gradle
+.gradle/
+artifacts/
+gradle-app.setting
+
+#Maven
+dependency-reduced-pom.xml
+
+#Eclipse
+.settings
+.project
+.classpath
+.manifest
+
+#IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+#Other temp files
 Reforged/en_US.lang
