@@ -1,6 +1,6 @@
 ![Pixelmon.PRO - Лучший Российский Pixelmon проект!](https://image.prntscr.com/image/5PtJnX82Sqm8TVwE8FBFKw.png)
-# ru_RU language - Full localization for Pixelmon Mod 1.10.2-1.12.2!
-Полная Русская локализация мода последних актуальных версий [Pixelmon Mod](https://pixelmonmod.com) и [Reforged версии](https://reforged.gg).
+# ru_RU language - Full localization for Pixelmon Reforged 1.12.2, 1.10.2!
+Полная Русская локализация мода последних актуальных версий [Reforged версий](https://reforged.gg) и старой официально [Pixelmon Mod](https://pixelmonmod.com) версии.
 Данный перевод выполнен администраторами и активными игроками с проекта [Pixelmon.PRO](https://pixelmon.pro). Надеемся, к переводу добавятся энтузиасы (люди вне нашего проекта), которым это будет интересно :)
 Чтобы внести свою правки в перевод, сделайте Fork локализации и после редактирования, создайте Pull Request. После рассмотрения (и возможной корректировки), ваши изменения будут добавлены в перевод.
 
@@ -12,7 +12,7 @@
 - [Pixelmon Mod (1.7.10-1.10.2)](http://pixelmonmod.com)
 - [Pixelmon Mod Discord](https://discord.gg/pixelmon)
 - [Wiki Pixelmon Mod](http://pixelmonmod.com/wiki/index.php?title=Main_Page)
-- [VK Pixelmon News](https://vk.com/modpixelmon)
+- [VK Pixelmon Tavern](https://vk.com/modpixelmon)
 
 # About authors
 ![Pixelmon.PRO - Лучший Российский Pixelmon проект!](https://image.prntscr.com/image/CzRTm_KNS9ilV6j57VdlpA.png)
@@ -29,8 +29,10 @@
 Хочешь стать одним из самых сильных тренеров?
 Оставайся с нами - покажи на сколько ты "PRO" во вселенной покемонов!
 
-# Project links
-- [Pixelmon.PRO](https://pixelmon.pro)
-- [RU Wiki Pixelmon](https://pixelmon.pro/wiki/)
-- [VK сообщество](https://vk.com/pixelmonpro)
-- [Discord сообщество](http://discord.pixelmon.pro)
+# Pixelmon.PRO Project links
+- [Site](https://pixelmon.pro)
+- [VK](https://vk.com/pixelmon)
+- [Discord](https://discord.pixelmon.pro)
+- [Instagram](https://instagram.com/pixelmonpro)
+- [YouTube](https://www.youtube.com/c/PixelmonPRO)
+- [Wiki Pixelmon](https://pixelmon.pro/wiki/)
