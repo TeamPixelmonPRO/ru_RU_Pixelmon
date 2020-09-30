@@ -1,3 +1,5 @@
+<p style="text-align: center;"><a href="https://discord.gg/pixelmonpro"><img src="https://discordapp.com/api/guilds/252183114795843584/widget.png?style=banner2" /></a> <a href="https://pixelmon.pro"><img src="https://i.imgur.com/USLqz6D.png" /></a> <a href="https://vk.com/pixelmon"><img src="https://i.imgur.com/1g5Pz0u.png" /></a> <a href="https://reforged.gg"><img src="https://i.imgur.com/pW3HGxC.png" /></a> <a href="https://vk.com/modpixelmon"><img src="https://i.imgur.com/KxfVuey.png" /></a></p>
+
 ![Pixelmon.PRO - Лучший Российский Pixelmon проект!](https://image.prntscr.com/image/5PtJnX82Sqm8TVwE8FBFKw.png)
 # ru_RU language - Full localization for Pixelmon Reforged 1.12.2, 1.10.2!
 Полная Русская локализация мода последних актуальных версий [Reforged версий](https://reforged.gg) и старой официально [Pixelmon Mod](https://pixelmonmod.com) версии.
